@@ -1,0 +1,22 @@
+# # # # # # # # # # # # # # # # #
+#     Speed Runner Vs Hunter    #
+#       Minecraft Manhunt       #
+#        by Willbob2004         #
+#             v 1.0             #
+#                               #
+# The first setting to change   #
+# in this file is for           #
+# determining when the          #
+# hunter(s) has(have) won.      #
+# This setting is for multiple  #
+# speed runners only.  If they  #
+# win once all the speedrunners #
+# have died, then the           #
+# "allMustDie" value should be  #
+# set to true.  If only one     #
+# must die, then it should be   #
+# set to false.  By default it  #
+# is set to true.               #
+# # # # # # # # # # # # # # # # #
+
+allMustDie: true

@@ -1,0 +1,1234 @@
+[16:46:47] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[16:46:47] [Server thread/INFO]: Loading properties
+[16:46:47] [Server thread/INFO]: Default game type: SURVIVAL
+[16:46:47] [Server thread/INFO]: This server is running CraftBukkit version git-PaperSpigot-445 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+[16:46:47] [Server thread/INFO]: Debug logging is disabled
+[16:46:47] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
+[16:46:47] [Server thread/INFO]: Server Ping Player Sample Count: 12
+
+[16:46:47] [Server thread/INFO]: Using 4 threads for Netty based IO
+[16:46:47] [Server thread/INFO]: Data value allowed items: 
+[16:46:47] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
+
+[16:46:47] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
+
+[16:46:47] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.stackableBuckets(PaperSpigotConfig.java:192)
+
+[16:46:47] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+[16:46:47] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+
+[16:46:47] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.readConfig(PaperSpigotConfig.java:84)
+
+[16:46:47] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.init(PaperSpigotConfig.java:62)
+
+[16:46:47] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:181)
+
+[16:46:47] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
+
+[16:46:47] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[16:46:47] [Server thread/INFO]: Generating keypair
+[16:46:48] [Server thread/INFO]: Starting Minecraft server on localhost:25565
+[16:46:48] [Server thread/INFO]: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+[16:46:48] [Server thread/INFO]: Using default channel type
+[16:46:48] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[16:46:48] [Server thread/INFO]: [OpenInventory] Loading OpenInventory v1.2
+[16:46:48] [Server thread/INFO]: [Speed_Runner_vs_Hunter] Loading Speed_Runner_vs_Hunter v1.0
+[16:46:48] [Server thread/INFO]: [SimpleTpa] Loading SimpleTpa v6.4
+[16:46:48] [Server thread/INFO]: [MoreCommands] Loading MoreCommands v1.20.0
+[16:46:48] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1;no_git_id
+[16:46:48] [Server thread/INFO]: [Essentials] Loading Essentials v2.21.0-dev+81-cde7184
+[16:46:48] [Server thread/INFO]: [ClearLag] Loading ClearLag v3.2.2
+[16:46:48] [Server thread/INFO]: [NoteBlockAPI] Loading NoteBlockAPI v1.6.2-SNAPSHOT
+[16:46:48] [Server thread/INFO]: [SimpleHomes] Loading SimpleHomes v2.2
+[16:46:48] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v5.2.0-SNAPSHOT-679
+[16:46:49] [Server thread/INFO]: [LibsDisguises] Loading LibsDisguises v8.6.8
+[16:46:49] [Server thread/INFO]: [TrollV4] Loading TrollV4 v4.5.18
+[16:46:49] [Server thread/INFO]: [LoginSecurity] Loading LoginSecurity v3.2.0
+[16:46:49] [Server thread/INFO]: [SuperVanish] Loading SuperVanish v6.2.12
+[16:46:49] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.2.0-SNAPSHOT-679
+[16:46:49] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[16:46:49] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[16:46:49] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[16:46:49] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
+[16:46:49] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[16:46:49] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[16:46:49] [Server thread/INFO]: Preparing level "world"
+[16:46:49] [Server thread/INFO]: -------- World Settings For [world] --------
+[16:46:49] [Server thread/INFO]: Mob Spawn Range: 4
+[16:46:49] [Server thread/INFO]: Anti X-Ray: true
+[16:46:49] [Server thread/INFO]: 	Engine Mode: 1
+[16:46:49] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[16:46:49] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[16:46:49] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[16:46:49] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[16:46:49] [Server thread/INFO]: Cane Growth Modifier: 100%
+[16:46:49] [Server thread/INFO]: Melon Growth Modifier: 100%
+[16:46:49] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[16:46:49] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[16:46:49] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[16:46:49] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[16:46:49] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[16:46:49] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[16:46:49] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[16:46:49] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[16:46:49] [Server thread/INFO]: Random Lighting Updates: false
+[16:46:49] [Server thread/INFO]: Structure Info Saving: true
+[16:46:49] [Server thread/INFO]: Sending up to 10 chunks per packet
+[16:46:49] [Server thread/INFO]: Max Entity Collisions: 8
+[16:46:49] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[16:46:49] [Server thread/INFO]: Max TNT Explosions: 100
+[16:46:49] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[16:46:49] [Server thread/INFO]: Item Despawn Rate: 6000
+[16:46:49] [Server thread/INFO]: Item Merge Radius: 2.5
+[16:46:49] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[16:46:49] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[16:46:49] [Server thread/INFO]: View Distance: 4
+[16:46:49] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[16:46:49] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[16:46:49] [Server thread/INFO]: Clear tick list: false
+[16:46:49] [Server thread/INFO]: Experience Merge Radius: 3.0
+[16:46:49] [Server thread/INFO]: -------- World Settings For [world] --------
+[16:46:49] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[16:46:49] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[16:46:49] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[16:46:49] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[16:46:49] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[16:46:49] [Server thread/INFO]: Fix TNT cannons: false
+[16:46:49] [Server thread/INFO]: Water over lava flow speed: 5
+[16:46:49] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[16:46:49] [Server thread/INFO]: Keep spawn chunk loaded: true
+[16:46:49] [Server thread/INFO]: World async lighting: false
+[16:46:49] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[16:46:49] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[16:46:49] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[16:46:49] [Server thread/INFO]: Mob Spawn Range: 4
+[16:46:49] [Server thread/INFO]: Anti X-Ray: true
+[16:46:49] [Server thread/INFO]: 	Engine Mode: 1
+[16:46:49] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[16:46:49] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[16:46:49] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[16:46:49] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[16:46:49] [Server thread/INFO]: Cane Growth Modifier: 100%
+[16:46:49] [Server thread/INFO]: Melon Growth Modifier: 100%
+[16:46:49] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[16:46:49] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[16:46:49] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[16:46:49] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[16:46:49] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[16:46:49] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[16:46:49] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[16:46:49] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[16:46:49] [Server thread/INFO]: Random Lighting Updates: false
+[16:46:49] [Server thread/INFO]: Structure Info Saving: true
+[16:46:49] [Server thread/INFO]: Sending up to 10 chunks per packet
+[16:46:49] [Server thread/INFO]: Max Entity Collisions: 8
+[16:46:49] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[16:46:49] [Server thread/INFO]: Max TNT Explosions: 100
+[16:46:49] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[16:46:49] [Server thread/INFO]: Item Despawn Rate: 6000
+[16:46:49] [Server thread/INFO]: Item Merge Radius: 2.5
+[16:46:49] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[16:46:49] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[16:46:49] [Server thread/INFO]: View Distance: 4
+[16:46:49] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[16:46:49] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[16:46:49] [Server thread/INFO]: Clear tick list: false
+[16:46:49] [Server thread/INFO]: Experience Merge Radius: 3.0
+[16:46:49] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[16:46:49] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[16:46:49] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[16:46:49] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[16:46:49] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[16:46:49] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[16:46:49] [Server thread/INFO]: Fix TNT cannons: false
+[16:46:49] [Server thread/INFO]: Water over lava flow speed: 5
+[16:46:49] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[16:46:49] [Server thread/INFO]: Keep spawn chunk loaded: true
+[16:46:49] [Server thread/INFO]: World async lighting: false
+[16:46:49] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[16:46:49] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[16:46:49] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[16:46:49] [Server thread/INFO]: Mob Spawn Range: 4
+[16:46:49] [Server thread/INFO]: Anti X-Ray: true
+[16:46:49] [Server thread/INFO]: 	Engine Mode: 1
+[16:46:49] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[16:46:49] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[16:46:49] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[16:46:49] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[16:46:49] [Server thread/INFO]: Cane Growth Modifier: 100%
+[16:46:49] [Server thread/INFO]: Melon Growth Modifier: 100%
+[16:46:49] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[16:46:49] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[16:46:49] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[16:46:49] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[16:46:49] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[16:46:49] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[16:46:49] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[16:46:49] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[16:46:49] [Server thread/INFO]: Random Lighting Updates: false
+[16:46:49] [Server thread/INFO]: Structure Info Saving: true
+[16:46:49] [Server thread/INFO]: Sending up to 10 chunks per packet
+[16:46:49] [Server thread/INFO]: Max Entity Collisions: 8
+[16:46:49] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[16:46:49] [Server thread/INFO]: Max TNT Explosions: 100
+[16:46:49] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[16:46:49] [Server thread/INFO]: Item Despawn Rate: 6000
+[16:46:49] [Server thread/INFO]: Item Merge Radius: 2.5
+[16:46:49] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[16:46:49] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[16:46:49] [Server thread/INFO]: View Distance: 4
+[16:46:49] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[16:46:49] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[16:46:49] [Server thread/INFO]: Clear tick list: false
+[16:46:49] [Server thread/INFO]: Experience Merge Radius: 3.0
+[16:46:49] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[16:46:49] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[16:46:49] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[16:46:49] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[16:46:49] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[16:46:49] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[16:46:49] [Server thread/INFO]: Fix TNT cannons: false
+[16:46:49] [Server thread/INFO]: Water over lava flow speed: 5
+[16:46:49] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[16:46:49] [Server thread/INFO]: Keep spawn chunk loaded: true
+[16:46:49] [Server thread/INFO]: World async lighting: false
+[16:46:49] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[16:46:49] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[16:46:49] [Server thread/INFO]: Preparing start region for level 0 (Seed: -7898745914213439128)
+[16:46:50] [Server thread/INFO]: Preparing spawn area: 68%
+[16:46:51] [Server thread/INFO]: Preparing start region for level 1 (Seed: -7898745914213439128)
+[16:46:52] [Server thread/INFO]: Preparing start region for level 2 (Seed: -7898745914213439128)
+[16:46:52] [Server thread/INFO]: [OpenInventory] Enabling OpenInventory v1.2
+[16:46:52] [Server thread/INFO]: [OpenInventory] OpenInventory v.1.2 has been enabled!
+[16:46:52] [Server thread/INFO]: [Speed_Runner_vs_Hunter] Enabling Speed_Runner_vs_Hunter v1.0
+[16:46:52] [Server thread/INFO]: Speed Runner vs Hunter has been loaded!
+
+[16:46:52] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v6.4
+[16:46:52] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
+
+[16:46:52] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] Simple Tpa has been enabled on version 6.4[m
+
+[16:46:52] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
+[16:46:52] [Server thread/INFO]: [MoreCommands] Enabling MoreCommands v1.20.0
+[16:46:52] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1;no_git_id
+[16:46:52] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[16:46:52] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R3 as the Bukkit adapter
+[16:46:52] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+81-cde7184
+[16:46:53] [Server thread/WARN]: Beginning Adventure locale file conversion.
+[16:46:53] [Server thread/INFO]: You are running a server with limited API functionality. EssentialsX will still work, but certain features may be disabled.
+[16:46:53] [Server thread/INFO]: Creating config from template: plugins/Essentials/config.yml
+[16:46:53] [Server thread/WARN]: Missing userdata folder, aborting
+[16:46:53] [Server thread/INFO]: Creating config from template: plugins/Essentials/kits.yml
+[16:46:53] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
+[16:46:53] [Server thread/INFO]: No kits found to migrate.
+[16:46:53] [Server thread/INFO]: Starting Essentials ban format conversion
+[16:46:53] [Server thread/INFO]: Attempting to migrate ignore list to UUIDs
+[16:46:53] [Server thread/INFO]: Attempting to migrate legacy userdata keys to Configurate
+[16:46:53] [Server thread/INFO]: Creating config from template: plugins/Essentials/worth.yml
+[16:46:53] [Server thread/INFO]: Creating config from template: plugins/Essentials/tpr.yml
+[16:46:53] [Server thread/INFO]: Loaded 853 items from items.csv.
+[16:46:53] [Server thread/INFO]: Creating config from template: plugins/Essentials/custom_items.yml
+[16:46:53] [Server thread/INFO]: Using locale en
+[16:46:54] [Server thread/INFO]: ServerListPingEvent: Spigot iterator API
+[16:46:54] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
+[16:46:54] [Server thread/INFO]: Using superperms-based permissions.
+[16:46:54] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
+[16:46:54] [Server thread/INFO]: [ClearLag] Using version-adapter: LegacyVersionAdapter
+[16:46:54] [Server thread/INFO]: [ClearLag] Loading modules...
+[16:46:54] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
+[16:46:54] [Server thread/INFO]: [ClearLag] Modules have been loaded!
+[16:46:54] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
+[16:46:54] [Server thread/INFO]: [NoteBlockAPI] Enabling NoteBlockAPI v1.6.2-SNAPSHOT
+[16:46:54] [Thread-7/INFO]: [ClearLag] Checking for updates compatible with your bukkit version [1.8]...
+[16:46:54] [Server thread/INFO]: [SimpleHomes] Enabling SimpleHomes v2.2
+[16:46:54] [Server thread/INFO]: [LibsDisguises] Enabling LibsDisguises v8.6.8
+[16:46:55] [Server thread/INFO]: [TrollV4] Enabling TrollV4 v4.5.18
+[16:46:55] [Thread-7/INFO]: [ClearLag] No updates found!
+[16:46:58] [Server thread/INFO]: [TrollV4] -----------------------------------
+[16:46:58] [Server thread/INFO]: [TrollV4] TrollV4.5.18 by Presti
+[16:46:58] [Server thread/INFO]: [TrollV4] In case of errors please report:
+[16:46:58] [Server thread/INFO]: [TrollV4] Email: presti@presti.me
+[16:46:58] [Server thread/INFO]: [TrollV4] YouTube: Not Memerinoto
+[16:46:58] [Server thread/INFO]: [TrollV4] Otherwise have fun!
+[16:46:58] [Server thread/INFO]: [TrollV4] ------------------------------------
+[16:46:58] [Server thread/INFO]: [TrollV4] Plugin Version: 4.5.18
+[16:46:58] [Server thread/INFO]: [TrollV4] Server Version: v1_8_R3 - 1.8.8
+[16:46:58] [Server thread/INFO]: [TrollV4] Server Software: SPIGOT
+[16:46:58] [Server thread/INFO]: [TrollV4] Community Surprise is disabled!
+[16:46:58] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.2.0
+[16:46:58] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
+[16:46:58] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
+[16:46:58] [Server thread/INFO]: [LoginSecurity] Registering commands...
+[16:46:58] [Server thread/INFO]: [LoginSecurity] Registering listeners...
+[16:46:58] [Server thread/INFO]: [SuperVanish] Enabling SuperVanish v6.2.12
+[16:46:58] [Server thread/INFO]: [SuperVanish] Hooked into Essentials
+[16:46:58] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[16:46:58] [Server thread/INFO]: Done (8.881s)! For help, type "help" or "?"
+[16:46:58] [Server thread/INFO]: Timings Reset
+[16:46:58] [Craft Scheduler Thread - 1/INFO]: §6Fetching version information...
+[16:46:58] [Craft Scheduler Thread - 4/INFO]: [LibsDisguises] Failed to check for a update on spigot. Now checking bukkit..
+[16:46:58] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[21m[SimpleTpa] There is a new update available.[m
+
+[16:46:58] [Craft Scheduler Thread - 3/INFO]: [0;32;1m|==========================|[m
+
+[16:46:58] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] There is a new update available:[m
+
+[16:46:58] [Craft Scheduler Thread - 3/INFO]: [0;32;1m|   [0;33;1mMoreCommands v1.20.0[0;32;1m   |[m
+
+[16:46:58] [Craft Scheduler Thread - 3/INFO]: [0;32;1m| [0;37;1mMade by [0;33;22mPoisonNightBlade[0;32;1m |[m
+
+[16:46:58] [Craft Scheduler Thread - 3/INFO]: [0;32;1m|==========================|[m
+
+[16:46:58] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] https://www.spigotmc.org/resources/simple-tpa.64270/[m
+
+[16:46:58] [Server thread/INFO]: [SuperVanish] Your current version of SuperVanish is outdated - New version: '6.2.18'; Currently: '6.2.12'
+[16:46:59] [Craft Scheduler Thread - 1/WARN]: [TrollV4] TrollV4 has a update!
+[16:46:59] [Craft Scheduler Thread - 1/WARN]: [TrollV4] New Version: 4.5.19
+[16:46:59] [Craft Scheduler Thread - 1/WARN]: [TrollV4] Your Version: 4.5.18
+[16:46:59] [Craft Scheduler Thread - 1/WARN]: [TrollV4] Download here: https://www.spigotmc.org/resources/67318/updates
+[16:47:08] [Craft Scheduler Thread - 1/INFO]: [NoteBlockAPI] New update available!
+[16:48:50] [Thread-9/INFO]: UUID of player Zebraburger123 is 68ce06ba-1eef-3160-8eb1-bc72480cc20e
+[16:48:50] [Server thread/ERROR]: [LibsDisguises] Unhandled exception occurred in onPacketSending(PacketEvent) for LibsDisguises
+java.lang.NoClassDefFoundError: com/comphenix/net/sf/cglib/proxy/Factory
+	at me.libraryaddict.disguise.utilities.PacketsManager$4.onPacketSending(PacketsManager.java:1019) ~[?:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokeSendingListener(SortedPacketListenerList.java:219) ~[?:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokeUnpackedPacketSending(SortedPacketListenerList.java:204) ~[?:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokePacketSending(SortedPacketListenerList.java:149) ~[?:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokePacketSending(SortedPacketListenerList.java:139) ~[?:?]
+	at com.comphenix.protocol.injector.PacketFilterManager.postPacketToListeners(PacketFilterManager.java:553) ~[?:?]
+	at com.comphenix.protocol.injector.PacketFilterManager.invokePacketSending(PacketFilterManager.java:526) ~[?:?]
+	at com.comphenix.protocol.injector.netty.manager.NetworkManagerInjector.onPacketSending(NetworkManagerInjector.java:100) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyChannelInjector.processOutbound(NettyChannelInjector.java:553) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyChannelInjector$2.doProxyRunnable(NettyChannelInjector.java:456) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.proxyRunnable(NettyEventLoopProxy.java:43) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.execute(NettyEventLoopProxy.java:252) ~[?:?]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:192) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.handle(NetworkManager.java:141) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.sendPacket(PlayerConnection.java:911) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityPlayer.a(EntityPlayer.java:783) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.Container.addSlotListener(Container.java:59) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityPlayer.syncInventory(EntityPlayer.java:177) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerList.a(PlayerList.java:190) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.LoginListener.b(LoginListener.java:144) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.LoginListener.c(LoginListener.java:54) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:231) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.ServerConnection.c(ServerConnection.java:148) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:875) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.ClassNotFoundException: com.comphenix.net.sf.cglib.proxy.Factory
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:445) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:102) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:87) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:593) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	... 28 more
+[16:48:51] [Server thread/ERROR]: Parameters: 
+  net.minecraft.server.v1_8_R3.PacketPlayOutWindowItems@547272dd[
+    a=0
+    b={<null>,<null>,<null>,<null>,<null>,<null>,<null>,<null>,<null>,1xitem.pickaxeStone@32,16xtile.torch@0,1xitem.hatchetWood@1,2xtile.sandStone@0,4xtile.dirt@0,5xtile.stonebrick@0,3xitem.ingotIron@0,1xtile.clayHardened@0,<null>,<null>,<null>,<null>,<null>,<null>,<null>,<null>,<null>,<null>,<null>,<null>,<null>,<null>,<null>,<null>,<null>,<null>,<null>,26xtile.wood@0,52xitem.bread@0,1xitem.pickaxeWood@10,<null>,1xitem.hatchetStone@14,1xitem.pickaxeIron@1,1xitem.hatchetIron@1,1xtile.furnace@0,1xtile.workbench@0}
+  ]
+
+[16:48:51] [Server thread/ERROR]: [LibsDisguises] Unhandled exception occurred in onPacketSending(PacketEvent) for LibsDisguises
+java.lang.NoClassDefFoundError: com/comphenix/net/sf/cglib/proxy/Factory
+	at me.libraryaddict.disguise.utilities.PacketsManager$4.onPacketSending(PacketsManager.java:1019) ~[?:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokeSendingListener(SortedPacketListenerList.java:219) ~[?:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokeUnpackedPacketSending(SortedPacketListenerList.java:204) ~[?:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokePacketSending(SortedPacketListenerList.java:149) ~[?:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokePacketSending(SortedPacketListenerList.java:139) ~[?:?]
+	at com.comphenix.protocol.injector.PacketFilterManager.postPacketToListeners(PacketFilterManager.java:553) ~[?:?]
+	at com.comphenix.protocol.injector.PacketFilterManager.invokePacketSending(PacketFilterManager.java:526) ~[?:?]
+	at com.comphenix.protocol.injector.netty.manager.NetworkManagerInjector.onPacketSending(NetworkManagerInjector.java:100) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyChannelInjector.processOutbound(NettyChannelInjector.java:553) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyChannelInjector$2.doProxyRunnable(NettyChannelInjector.java:456) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.proxyRunnable(NettyEventLoopProxy.java:43) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.execute(NettyEventLoopProxy.java:252) ~[?:?]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:192) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.handle(NetworkManager.java:141) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.sendPacket(PlayerConnection.java:911) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityPlayer.a(EntityPlayer.java:784) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.Container.addSlotListener(Container.java:59) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityPlayer.syncInventory(EntityPlayer.java:177) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerList.a(PlayerList.java:190) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.LoginListener.b(LoginListener.java:144) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.LoginListener.c(LoginListener.java:54) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:231) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.ServerConnection.c(ServerConnection.java:148) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:875) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.ClassNotFoundException: com.comphenix.net.sf.cglib.proxy.Factory
+	... 28 more
+[16:48:51] [Server thread/ERROR]: Parameters: 
+  net.minecraft.server.v1_8_R3.PacketPlayOutSetSlot@7afde404[
+    a=-1
+    b=-1
+    c=<null>
+  ]
+
+[16:48:51] [Server thread/ERROR]: [LibsDisguises] Unhandled exception occurred in onPacketSending(PacketEvent) for LibsDisguises
+java.lang.NoClassDefFoundError: com/comphenix/net/sf/cglib/proxy/Factory
+	at me.libraryaddict.disguise.utilities.PacketsManager$4.onPacketSending(PacketsManager.java:1019) ~[?:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokeSendingListener(SortedPacketListenerList.java:219) ~[?:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokeUnpackedPacketSending(SortedPacketListenerList.java:204) ~[?:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokePacketSending(SortedPacketListenerList.java:149) ~[?:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokePacketSending(SortedPacketListenerList.java:139) ~[?:?]
+	at com.comphenix.protocol.injector.PacketFilterManager.postPacketToListeners(PacketFilterManager.java:553) ~[?:?]
+	at com.comphenix.protocol.injector.PacketFilterManager.invokePacketSending(PacketFilterManager.java:526) ~[?:?]
+	at com.comphenix.protocol.injector.netty.manager.NetworkManagerInjector.onPacketSending(NetworkManagerInjector.java:100) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyChannelInjector.processOutbound(NettyChannelInjector.java:553) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyChannelInjector$2.doProxyRunnable(NettyChannelInjector.java:456) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.proxyRunnable(NettyEventLoopProxy.java:43) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.execute(NettyEventLoopProxy.java:252) ~[?:?]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:192) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.handle(NetworkManager.java:141) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.sendPacket(PlayerConnection.java:911) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityPlayer.a(EntityPlayer.java:773) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.Container.b(Container.java:84) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.Container.addSlotListener(Container.java:60) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityPlayer.syncInventory(EntityPlayer.java:177) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerList.a(PlayerList.java:190) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.LoginListener.b(LoginListener.java:144) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.LoginListener.c(LoginListener.java:54) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:231) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.ServerConnection.c(ServerConnection.java:148) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:875) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.ClassNotFoundException: com.comphenix.net.sf.cglib.proxy.Factory
+	... 29 more
+[16:48:51] [Server thread/ERROR]: Parameters: 
+  net.minecraft.server.v1_8_R3.PacketPlayOutSetSlot@658a9c47[
+    a=0
+    b=9
+    c=1xitem.pickaxeStone@32
+  ]
+
+[16:48:51] [Server thread/ERROR]: [LibsDisguises] Unhandled exception occurred in onPacketSending(PacketEvent) for LibsDisguises
+java.lang.NoClassDefFoundError: com/comphenix/net/sf/cglib/proxy/Factory
+	at me.libraryaddict.disguise.utilities.PacketsManager$4.onPacketSending(PacketsManager.java:1019) ~[?:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokeSendingListener(SortedPacketListenerList.java:219) ~[?:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokeUnpackedPacketSending(SortedPacketListenerList.java:204) ~[?:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokePacketSending(SortedPacketListenerList.java:149) ~[?:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokePacketSending(SortedPacketListenerList.java:139) ~[?:?]
+	at com.comphenix.protocol.injector.PacketFilterManager.postPacketToListeners(PacketFilterManager.java:553) ~[?:?]
+	at com.comphenix.protocol.injector.PacketFilterManager.invokePacketSending(PacketFilterManager.java:526) ~[?:?]
+	at com.comphenix.protocol.injector.netty.manager.NetworkManagerInjector.onPacketSending(NetworkManagerInjector.java:100) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyChannelInjector.processOutbound(NettyChannelInjector.java:553) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyChannelInjector$2.doProxyRunnable(NettyChannelInjector.java:456) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.proxyRunnable(NettyEventLoopProxy.java:43) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.execute(NettyEventLoopProxy.java:252) ~[?:?]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:192) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.handle(NetworkManager.java:141) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.sendPacket(PlayerConnection.java:911) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityPlayer.a(EntityPlayer.java:773) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.Container.b(Container.java:84) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.Container.addSlotListener(Container.java:60) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityPlayer.syncInventory(EntityPlayer.java:177) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerList.a(PlayerList.java:190) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.LoginListener.b(LoginListener.java:144) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.LoginListener.c(LoginListener.java:54) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:231) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.ServerConnection.c(ServerConnection.java:148) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:875) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.ClassNotFoundException: com.comphenix.net.sf.cglib.proxy.Factory
+	... 29 more
+[16:48:51] [Server thread/ERROR]: Parameters: 
+  net.minecraft.server.v1_8_R3.PacketPlayOutSetSlot@5bb38e64[
+    a=0
+    b=10
+    c=16xtile.torch@0
+  ]
+
+[16:48:51] [Server thread/ERROR]: [LibsDisguises] Unhandled exception occurred in onPacketSending(PacketEvent) for LibsDisguises
+java.lang.NoClassDefFoundError: com/comphenix/net/sf/cglib/proxy/Factory
+	at me.libraryaddict.disguise.utilities.PacketsManager$4.onPacketSending(PacketsManager.java:1019) ~[?:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokeSendingListener(SortedPacketListenerList.java:219) ~[?:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokeUnpackedPacketSending(SortedPacketListenerList.java:204) ~[?:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokePacketSending(SortedPacketListenerList.java:149) ~[?:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokePacketSending(SortedPacketListenerList.java:139) ~[?:?]
+	at com.comphenix.protocol.injector.PacketFilterManager.postPacketToListeners(PacketFilterManager.java:553) ~[?:?]
+	at com.comphenix.protocol.injector.PacketFilterManager.invokePacketSending(PacketFilterManager.java:526) ~[?:?]
+	at com.comphenix.protocol.injector.netty.manager.NetworkManagerInjector.onPacketSending(NetworkManagerInjector.java:100) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyChannelInjector.processOutbound(NettyChannelInjector.java:553) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyChannelInjector$2.doProxyRunnable(NettyChannelInjector.java:456) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.proxyRunnable(NettyEventLoopProxy.java:43) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.execute(NettyEventLoopProxy.java:252) ~[?:?]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:192) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.handle(NetworkManager.java:141) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.sendPacket(PlayerConnection.java:911) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityPlayer.a(EntityPlayer.java:773) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.Container.b(Container.java:84) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.Container.addSlotListener(Container.java:60) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityPlayer.syncInventory(EntityPlayer.java:177) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerList.a(PlayerList.java:190) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.LoginListener.b(LoginListener.java:144) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.LoginListener.c(LoginListener.java:54) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:231) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.ServerConnection.c(ServerConnection.java:148) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:875) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.ClassNotFoundException: com.comphenix.net.sf.cglib.proxy.Factory
+	... 29 more
+[16:48:51] [Server thread/ERROR]: Parameters: 
+  net.minecraft.server.v1_8_R3.PacketPlayOutSetSlot@146774e6[
+    a=0
+    b=11
+    c=1xitem.hatchetWood@1
+  ]
+
+[16:48:51] [Server thread/ERROR]: [LibsDisguises] Unhandled exception occurred in onPacketSending(PacketEvent) for LibsDisguises
+java.lang.NoClassDefFoundError: com/comphenix/net/sf/cglib/proxy/Factory
+	at me.libraryaddict.disguise.utilities.PacketsManager$4.onPacketSending(PacketsManager.java:1019) ~[?:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokeSendingListener(SortedPacketListenerList.java:219) ~[?:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokeUnpackedPacketSending(SortedPacketListenerList.java:204) ~[?:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokePacketSending(SortedPacketListenerList.java:149) ~[?:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokePacketSending(SortedPacketListenerList.java:139) ~[?:?]
+	at com.comphenix.protocol.injector.PacketFilterManager.postPacketToListeners(PacketFilterManager.java:553) ~[?:?]
+	at com.comphenix.protocol.injector.PacketFilterManager.invokePacketSending(PacketFilterManager.java:526) ~[?:?]
+	at com.comphenix.protocol.injector.netty.manager.NetworkManagerInjector.onPacketSending(NetworkManagerInjector.java:100) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyChannelInjector.processOutbound(NettyChannelInjector.java:553) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyChannelInjector$2.doProxyRunnable(NettyChannelInjector.java:456) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.proxyRunnable(NettyEventLoopProxy.java:43) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.execute(NettyEventLoopProxy.java:252) ~[?:?]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:192) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.handle(NetworkManager.java:141) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.sendPacket(PlayerConnection.java:911) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityPlayer.a(EntityPlayer.java:773) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.Container.b(Container.java:84) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.Container.addSlotListener(Container.java:60) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityPlayer.syncInventory(EntityPlayer.java:177) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerList.a(PlayerList.java:190) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.LoginListener.b(LoginListener.java:144) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.LoginListener.c(LoginListener.java:54) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:231) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.ServerConnection.c(ServerConnection.java:148) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:875) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.ClassNotFoundException: com.comphenix.net.sf.cglib.proxy.Factory
+	... 29 more
+[16:48:51] [Server thread/ERROR]: Parameters: 
+  net.minecraft.server.v1_8_R3.PacketPlayOutSetSlot@1130a3cb[
+    a=0
+    b=12
+    c=2xtile.sandStone@0
+  ]
+
+[16:48:51] [Server thread/ERROR]: [LibsDisguises] Unhandled exception occurred in onPacketSending(PacketEvent) for LibsDisguises
+java.lang.NoClassDefFoundError: com/comphenix/net/sf/cglib/proxy/Factory
+	at me.libraryaddict.disguise.utilities.PacketsManager$4.onPacketSending(PacketsManager.java:1019) ~[?:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokeSendingListener(SortedPacketListenerList.java:219) ~[?:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokeUnpackedPacketSending(SortedPacketListenerList.java:204) ~[?:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokePacketSending(SortedPacketListenerList.java:149) ~[?:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokePacketSending(SortedPacketListenerList.java:139) ~[?:?]
+	at com.comphenix.protocol.injector.PacketFilterManager.postPacketToListeners(PacketFilterManager.java:553) ~[?:?]
+	at com.comphenix.protocol.injector.PacketFilterManager.invokePacketSending(PacketFilterManager.java:526) ~[?:?]
+	at com.comphenix.protocol.injector.netty.manager.NetworkManagerInjector.onPacketSending(NetworkManagerInjector.java:100) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyChannelInjector.processOutbound(NettyChannelInjector.java:553) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyChannelInjector$2.doProxyRunnable(NettyChannelInjector.java:456) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.proxyRunnable(NettyEventLoopProxy.java:43) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.execute(NettyEventLoopProxy.java:252) ~[?:?]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:192) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.handle(NetworkManager.java:141) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.sendPacket(PlayerConnection.java:911) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityPlayer.a(EntityPlayer.java:773) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.Container.b(Container.java:84) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.Container.addSlotListener(Container.java:60) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityPlayer.syncInventory(EntityPlayer.java:177) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerList.a(PlayerList.java:190) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.LoginListener.b(LoginListener.java:144) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.LoginListener.c(LoginListener.java:54) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:231) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.ServerConnection.c(ServerConnection.java:148) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:875) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.ClassNotFoundException: com.comphenix.net.sf.cglib.proxy.Factory
+	... 29 more
+[16:48:51] [Server thread/ERROR]: Parameters: 
+  net.minecraft.server.v1_8_R3.PacketPlayOutSetSlot@6d634ef3[
+    a=0
+    b=13
+    c=4xtile.dirt@0
+  ]
+
+[16:48:51] [Server thread/ERROR]: [LibsDisguises] Unhandled exception occurred in onPacketSending(PacketEvent) for LibsDisguises
+java.lang.NoClassDefFoundError: com/comphenix/net/sf/cglib/proxy/Factory
+	at me.libraryaddict.disguise.utilities.PacketsManager$4.onPacketSending(PacketsManager.java:1019) ~[?:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokeSendingListener(SortedPacketListenerList.java:219) ~[?:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokeUnpackedPacketSending(SortedPacketListenerList.java:204) ~[?:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokePacketSending(SortedPacketListenerList.java:149) ~[?:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokePacketSending(SortedPacketListenerList.java:139) ~[?:?]
+	at com.comphenix.protocol.injector.PacketFilterManager.postPacketToListeners(PacketFilterManager.java:553) ~[?:?]
+	at com.comphenix.protocol.injector.PacketFilterManager.invokePacketSending(PacketFilterManager.java:526) ~[?:?]
+	at com.comphenix.protocol.injector.netty.manager.NetworkManagerInjector.onPacketSending(NetworkManagerInjector.java:100) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyChannelInjector.processOutbound(NettyChannelInjector.java:553) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyChannelInjector$2.doProxyRunnable(NettyChannelInjector.java:456) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.proxyRunnable(NettyEventLoopProxy.java:43) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.execute(NettyEventLoopProxy.java:252) ~[?:?]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:192) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.handle(NetworkManager.java:141) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.sendPacket(PlayerConnection.java:911) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityPlayer.a(EntityPlayer.java:773) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.Container.b(Container.java:84) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.Container.addSlotListener(Container.java:60) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityPlayer.syncInventory(EntityPlayer.java:177) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerList.a(PlayerList.java:190) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.LoginListener.b(LoginListener.java:144) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.LoginListener.c(LoginListener.java:54) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:231) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.ServerConnection.c(ServerConnection.java:148) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:875) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.ClassNotFoundException: com.comphenix.net.sf.cglib.proxy.Factory
+	... 29 more
+[16:48:51] [Server thread/ERROR]: Parameters: 
+  net.minecraft.server.v1_8_R3.PacketPlayOutSetSlot@1f1a0958[
+    a=0
+    b=14
+    c=5xtile.stonebrick@0
+  ]
+
+[16:48:51] [Server thread/ERROR]: [LibsDisguises] Unhandled exception occurred in onPacketSending(PacketEvent) for LibsDisguises
+java.lang.NoClassDefFoundError: com/comphenix/net/sf/cglib/proxy/Factory
+	at me.libraryaddict.disguise.utilities.PacketsManager$4.onPacketSending(PacketsManager.java:1019) ~[?:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokeSendingListener(SortedPacketListenerList.java:219) ~[?:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokeUnpackedPacketSending(SortedPacketListenerList.java:204) ~[?:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokePacketSending(SortedPacketListenerList.java:149) ~[?:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokePacketSending(SortedPacketListenerList.java:139) ~[?:?]
+	at com.comphenix.protocol.injector.PacketFilterManager.postPacketToListeners(PacketFilterManager.java:553) ~[?:?]
+	at com.comphenix.protocol.injector.PacketFilterManager.invokePacketSending(PacketFilterManager.java:526) ~[?:?]
+	at com.comphenix.protocol.injector.netty.manager.NetworkManagerInjector.onPacketSending(NetworkManagerInjector.java:100) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyChannelInjector.processOutbound(NettyChannelInjector.java:553) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyChannelInjector$2.doProxyRunnable(NettyChannelInjector.java:456) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.proxyRunnable(NettyEventLoopProxy.java:43) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.execute(NettyEventLoopProxy.java:252) ~[?:?]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:192) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.handle(NetworkManager.java:141) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.sendPacket(PlayerConnection.java:911) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityPlayer.a(EntityPlayer.java:773) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.Container.b(Container.java:84) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.Container.addSlotListener(Container.java:60) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityPlayer.syncInventory(EntityPlayer.java:177) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerList.a(PlayerList.java:190) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.LoginListener.b(LoginListener.java:144) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.LoginListener.c(LoginListener.java:54) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:231) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.ServerConnection.c(ServerConnection.java:148) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:875) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.ClassNotFoundException: com.comphenix.net.sf.cglib.proxy.Factory
+	... 29 more
+[16:48:51] [Server thread/ERROR]: Parameters: 
+  net.minecraft.server.v1_8_R3.PacketPlayOutSetSlot@3aa03af3[
+    a=0
+    b=15
+    c=3xitem.ingotIron@0
+  ]
+
+[16:48:51] [Server thread/ERROR]: [LibsDisguises] Unhandled exception occurred in onPacketSending(PacketEvent) for LibsDisguises
+java.lang.NoClassDefFoundError: com/comphenix/net/sf/cglib/proxy/Factory
+	at me.libraryaddict.disguise.utilities.PacketsManager$4.onPacketSending(PacketsManager.java:1019) ~[?:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokeSendingListener(SortedPacketListenerList.java:219) ~[?:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokeUnpackedPacketSending(SortedPacketListenerList.java:204) ~[?:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokePacketSending(SortedPacketListenerList.java:149) ~[?:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokePacketSending(SortedPacketListenerList.java:139) ~[?:?]
+	at com.comphenix.protocol.injector.PacketFilterManager.postPacketToListeners(PacketFilterManager.java:553) ~[?:?]
+	at com.comphenix.protocol.injector.PacketFilterManager.invokePacketSending(PacketFilterManager.java:526) ~[?:?]
+	at com.comphenix.protocol.injector.netty.manager.NetworkManagerInjector.onPacketSending(NetworkManagerInjector.java:100) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyChannelInjector.processOutbound(NettyChannelInjector.java:553) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyChannelInjector$2.doProxyRunnable(NettyChannelInjector.java:456) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.proxyRunnable(NettyEventLoopProxy.java:43) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.execute(NettyEventLoopProxy.java:252) ~[?:?]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:192) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.handle(NetworkManager.java:141) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.sendPacket(PlayerConnection.java:911) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityPlayer.a(EntityPlayer.java:773) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.Container.b(Container.java:84) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.Container.addSlotListener(Container.java:60) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityPlayer.syncInventory(EntityPlayer.java:177) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerList.a(PlayerList.java:190) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.LoginListener.b(LoginListener.java:144) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.LoginListener.c(LoginListener.java:54) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:231) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.ServerConnection.c(ServerConnection.java:148) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:875) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.ClassNotFoundException: com.comphenix.net.sf.cglib.proxy.Factory
+	... 29 more
+[16:48:51] [Server thread/ERROR]: Parameters: 
+  net.minecraft.server.v1_8_R3.PacketPlayOutSetSlot@3ce5ca82[
+    a=0
+    b=16
+    c=1xtile.clayHardened@0
+  ]
+
+[16:48:51] [Server thread/ERROR]: [LibsDisguises] Unhandled exception occurred in onPacketSending(PacketEvent) for LibsDisguises
+java.lang.NoClassDefFoundError: com/comphenix/net/sf/cglib/proxy/Factory
+	at me.libraryaddict.disguise.utilities.PacketsManager$4.onPacketSending(PacketsManager.java:1019) ~[?:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokeSendingListener(SortedPacketListenerList.java:219) ~[?:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokeUnpackedPacketSending(SortedPacketListenerList.java:204) ~[?:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokePacketSending(SortedPacketListenerList.java:149) ~[?:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokePacketSending(SortedPacketListenerList.java:139) ~[?:?]
+	at com.comphenix.protocol.injector.PacketFilterManager.postPacketToListeners(PacketFilterManager.java:553) ~[?:?]
+	at com.comphenix.protocol.injector.PacketFilterManager.invokePacketSending(PacketFilterManager.java:526) ~[?:?]
+	at com.comphenix.protocol.injector.netty.manager.NetworkManagerInjector.onPacketSending(NetworkManagerInjector.java:100) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyChannelInjector.processOutbound(NettyChannelInjector.java:553) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyChannelInjector$2.doProxyRunnable(NettyChannelInjector.java:456) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.proxyRunnable(NettyEventLoopProxy.java:43) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.execute(NettyEventLoopProxy.java:252) ~[?:?]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:192) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.handle(NetworkManager.java:141) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.sendPacket(PlayerConnection.java:911) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityPlayer.a(EntityPlayer.java:773) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.Container.b(Container.java:84) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.Container.addSlotListener(Container.java:60) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityPlayer.syncInventory(EntityPlayer.java:177) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerList.a(PlayerList.java:190) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.LoginListener.b(LoginListener.java:144) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.LoginListener.c(LoginListener.java:54) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:231) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.ServerConnection.c(ServerConnection.java:148) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:875) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.ClassNotFoundException: com.comphenix.net.sf.cglib.proxy.Factory
+	... 29 more
+[16:48:51] [Server thread/ERROR]: Parameters: 
+  net.minecraft.server.v1_8_R3.PacketPlayOutSetSlot@7994495f[
+    a=0
+    b=36
+    c=26xtile.wood@0
+  ]
+
+[16:48:51] [Server thread/ERROR]: [LibsDisguises] Unhandled exception occurred in onPacketSending(PacketEvent) for LibsDisguises
+java.lang.NoClassDefFoundError: com/comphenix/net/sf/cglib/proxy/Factory
+	at me.libraryaddict.disguise.utilities.PacketsManager$4.onPacketSending(PacketsManager.java:1019) ~[?:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokeSendingListener(SortedPacketListenerList.java:219) ~[?:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokeUnpackedPacketSending(SortedPacketListenerList.java:204) ~[?:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokePacketSending(SortedPacketListenerList.java:149) ~[?:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokePacketSending(SortedPacketListenerList.java:139) ~[?:?]
+	at com.comphenix.protocol.injector.PacketFilterManager.postPacketToListeners(PacketFilterManager.java:553) ~[?:?]
+	at com.comphenix.protocol.injector.PacketFilterManager.invokePacketSending(PacketFilterManager.java:526) ~[?:?]
+	at com.comphenix.protocol.injector.netty.manager.NetworkManagerInjector.onPacketSending(NetworkManagerInjector.java:100) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyChannelInjector.processOutbound(NettyChannelInjector.java:553) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyChannelInjector$2.doProxyRunnable(NettyChannelInjector.java:456) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.proxyRunnable(NettyEventLoopProxy.java:43) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.execute(NettyEventLoopProxy.java:252) ~[?:?]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:192) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.handle(NetworkManager.java:141) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.sendPacket(PlayerConnection.java:911) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityPlayer.a(EntityPlayer.java:773) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.Container.b(Container.java:84) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.Container.addSlotListener(Container.java:60) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityPlayer.syncInventory(EntityPlayer.java:177) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerList.a(PlayerList.java:190) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.LoginListener.b(LoginListener.java:144) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.LoginListener.c(LoginListener.java:54) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:231) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.ServerConnection.c(ServerConnection.java:148) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:875) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.ClassNotFoundException: com.comphenix.net.sf.cglib.proxy.Factory
+	... 29 more
+[16:48:51] [Server thread/ERROR]: Parameters: 
+  net.minecraft.server.v1_8_R3.PacketPlayOutSetSlot@574bc624[
+    a=0
+    b=37
+    c=52xitem.bread@0
+  ]
+
+[16:48:51] [Server thread/ERROR]: [LibsDisguises] Unhandled exception occurred in onPacketSending(PacketEvent) for LibsDisguises
+java.lang.NoClassDefFoundError: com/comphenix/net/sf/cglib/proxy/Factory
+	at me.libraryaddict.disguise.utilities.PacketsManager$4.onPacketSending(PacketsManager.java:1019) ~[?:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokeSendingListener(SortedPacketListenerList.java:219) ~[?:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokeUnpackedPacketSending(SortedPacketListenerList.java:204) ~[?:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokePacketSending(SortedPacketListenerList.java:149) ~[?:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokePacketSending(SortedPacketListenerList.java:139) ~[?:?]
+	at com.comphenix.protocol.injector.PacketFilterManager.postPacketToListeners(PacketFilterManager.java:553) ~[?:?]
+	at com.comphenix.protocol.injector.PacketFilterManager.invokePacketSending(PacketFilterManager.java:526) ~[?:?]
+	at com.comphenix.protocol.injector.netty.manager.NetworkManagerInjector.onPacketSending(NetworkManagerInjector.java:100) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyChannelInjector.processOutbound(NettyChannelInjector.java:553) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyChannelInjector$2.doProxyRunnable(NettyChannelInjector.java:456) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.proxyRunnable(NettyEventLoopProxy.java:43) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.execute(NettyEventLoopProxy.java:252) ~[?:?]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:192) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.handle(NetworkManager.java:141) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.sendPacket(PlayerConnection.java:911) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityPlayer.a(EntityPlayer.java:773) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.Container.b(Container.java:84) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.Container.addSlotListener(Container.java:60) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityPlayer.syncInventory(EntityPlayer.java:177) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerList.a(PlayerList.java:190) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.LoginListener.b(LoginListener.java:144) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.LoginListener.c(LoginListener.java:54) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:231) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.ServerConnection.c(ServerConnection.java:148) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:875) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.ClassNotFoundException: com.comphenix.net.sf.cglib.proxy.Factory
+	... 29 more
+[16:48:51] [Server thread/ERROR]: Parameters: 
+  net.minecraft.server.v1_8_R3.PacketPlayOutSetSlot@67b3f1e5[
+    a=0
+    b=38
+    c=1xitem.pickaxeWood@10
+  ]
+
+[16:48:51] [Server thread/ERROR]: [LibsDisguises] Unhandled exception occurred in onPacketSending(PacketEvent) for LibsDisguises
+java.lang.NoClassDefFoundError: com/comphenix/net/sf/cglib/proxy/Factory
+	at me.libraryaddict.disguise.utilities.PacketsManager$4.onPacketSending(PacketsManager.java:1019) ~[?:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokeSendingListener(SortedPacketListenerList.java:219) ~[?:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokeUnpackedPacketSending(SortedPacketListenerList.java:204) ~[?:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokePacketSending(SortedPacketListenerList.java:149) ~[?:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokePacketSending(SortedPacketListenerList.java:139) ~[?:?]
+	at com.comphenix.protocol.injector.PacketFilterManager.postPacketToListeners(PacketFilterManager.java:553) ~[?:?]
+	at com.comphenix.protocol.injector.PacketFilterManager.invokePacketSending(PacketFilterManager.java:526) ~[?:?]
+	at com.comphenix.protocol.injector.netty.manager.NetworkManagerInjector.onPacketSending(NetworkManagerInjector.java:100) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyChannelInjector.processOutbound(NettyChannelInjector.java:553) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyChannelInjector$2.doProxyRunnable(NettyChannelInjector.java:456) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.proxyRunnable(NettyEventLoopProxy.java:43) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.execute(NettyEventLoopProxy.java:252) ~[?:?]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:192) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.handle(NetworkManager.java:141) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.sendPacket(PlayerConnection.java:911) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityPlayer.a(EntityPlayer.java:773) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.Container.b(Container.java:84) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.Container.addSlotListener(Container.java:60) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityPlayer.syncInventory(EntityPlayer.java:177) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerList.a(PlayerList.java:190) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.LoginListener.b(LoginListener.java:144) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.LoginListener.c(LoginListener.java:54) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:231) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.ServerConnection.c(ServerConnection.java:148) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:875) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.ClassNotFoundException: com.comphenix.net.sf.cglib.proxy.Factory
+	... 29 more
+[16:48:51] [Server thread/ERROR]: Parameters: 
+  net.minecraft.server.v1_8_R3.PacketPlayOutSetSlot@5aa9a1df[
+    a=0
+    b=40
+    c=1xitem.hatchetStone@14
+  ]
+
+[16:48:51] [Server thread/ERROR]: [LibsDisguises] Unhandled exception occurred in onPacketSending(PacketEvent) for LibsDisguises
+java.lang.NoClassDefFoundError: com/comphenix/net/sf/cglib/proxy/Factory
+	at me.libraryaddict.disguise.utilities.PacketsManager$4.onPacketSending(PacketsManager.java:1019) ~[?:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokeSendingListener(SortedPacketListenerList.java:219) ~[?:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokeUnpackedPacketSending(SortedPacketListenerList.java:204) ~[?:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokePacketSending(SortedPacketListenerList.java:149) ~[?:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokePacketSending(SortedPacketListenerList.java:139) ~[?:?]
+	at com.comphenix.protocol.injector.PacketFilterManager.postPacketToListeners(PacketFilterManager.java:553) ~[?:?]
+	at com.comphenix.protocol.injector.PacketFilterManager.invokePacketSending(PacketFilterManager.java:526) ~[?:?]
+	at com.comphenix.protocol.injector.netty.manager.NetworkManagerInjector.onPacketSending(NetworkManagerInjector.java:100) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyChannelInjector.processOutbound(NettyChannelInjector.java:553) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyChannelInjector$2.doProxyRunnable(NettyChannelInjector.java:456) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.proxyRunnable(NettyEventLoopProxy.java:43) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.execute(NettyEventLoopProxy.java:252) ~[?:?]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:192) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.handle(NetworkManager.java:141) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.sendPacket(PlayerConnection.java:911) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityPlayer.a(EntityPlayer.java:773) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.Container.b(Container.java:84) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.Container.addSlotListener(Container.java:60) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityPlayer.syncInventory(EntityPlayer.java:177) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerList.a(PlayerList.java:190) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.LoginListener.b(LoginListener.java:144) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.LoginListener.c(LoginListener.java:54) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:231) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.ServerConnection.c(ServerConnection.java:148) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:875) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.ClassNotFoundException: com.comphenix.net.sf.cglib.proxy.Factory
+	... 29 more
+[16:48:51] [Server thread/ERROR]: Parameters: 
+  net.minecraft.server.v1_8_R3.PacketPlayOutSetSlot@28c30733[
+    a=0
+    b=41
+    c=1xitem.pickaxeIron@1
+  ]
+
+[16:48:51] [Server thread/ERROR]: [LibsDisguises] Unhandled exception occurred in onPacketSending(PacketEvent) for LibsDisguises
+java.lang.NoClassDefFoundError: com/comphenix/net/sf/cglib/proxy/Factory
+	at me.libraryaddict.disguise.utilities.PacketsManager$4.onPacketSending(PacketsManager.java:1019) ~[?:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokeSendingListener(SortedPacketListenerList.java:219) ~[?:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokeUnpackedPacketSending(SortedPacketListenerList.java:204) ~[?:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokePacketSending(SortedPacketListenerList.java:149) ~[?:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokePacketSending(SortedPacketListenerList.java:139) ~[?:?]
+	at com.comphenix.protocol.injector.PacketFilterManager.postPacketToListeners(PacketFilterManager.java:553) ~[?:?]
+	at com.comphenix.protocol.injector.PacketFilterManager.invokePacketSending(PacketFilterManager.java:526) ~[?:?]
+	at com.comphenix.protocol.injector.netty.manager.NetworkManagerInjector.onPacketSending(NetworkManagerInjector.java:100) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyChannelInjector.processOutbound(NettyChannelInjector.java:553) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyChannelInjector$2.doProxyRunnable(NettyChannelInjector.java:456) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.proxyRunnable(NettyEventLoopProxy.java:43) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.execute(NettyEventLoopProxy.java:252) ~[?:?]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:192) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.handle(NetworkManager.java:141) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.sendPacket(PlayerConnection.java:911) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityPlayer.a(EntityPlayer.java:773) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.Container.b(Container.java:84) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.Container.addSlotListener(Container.java:60) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityPlayer.syncInventory(EntityPlayer.java:177) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerList.a(PlayerList.java:190) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.LoginListener.b(LoginListener.java:144) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.LoginListener.c(LoginListener.java:54) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:231) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.ServerConnection.c(ServerConnection.java:148) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:875) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.ClassNotFoundException: com.comphenix.net.sf.cglib.proxy.Factory
+	... 29 more
+[16:48:51] [Server thread/ERROR]: Parameters: 
+  net.minecraft.server.v1_8_R3.PacketPlayOutSetSlot@4fbbd6d8[
+    a=0
+    b=42
+    c=1xitem.hatchetIron@1
+  ]
+
+[16:48:51] [Server thread/ERROR]: [LibsDisguises] Unhandled exception occurred in onPacketSending(PacketEvent) for LibsDisguises
+java.lang.NoClassDefFoundError: com/comphenix/net/sf/cglib/proxy/Factory
+	at me.libraryaddict.disguise.utilities.PacketsManager$4.onPacketSending(PacketsManager.java:1019) ~[?:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokeSendingListener(SortedPacketListenerList.java:219) ~[?:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokeUnpackedPacketSending(SortedPacketListenerList.java:204) ~[?:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokePacketSending(SortedPacketListenerList.java:149) ~[?:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokePacketSending(SortedPacketListenerList.java:139) ~[?:?]
+	at com.comphenix.protocol.injector.PacketFilterManager.postPacketToListeners(PacketFilterManager.java:553) ~[?:?]
+	at com.comphenix.protocol.injector.PacketFilterManager.invokePacketSending(PacketFilterManager.java:526) ~[?:?]
+	at com.comphenix.protocol.injector.netty.manager.NetworkManagerInjector.onPacketSending(NetworkManagerInjector.java:100) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyChannelInjector.processOutbound(NettyChannelInjector.java:553) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyChannelInjector$2.doProxyRunnable(NettyChannelInjector.java:456) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.proxyRunnable(NettyEventLoopProxy.java:43) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.execute(NettyEventLoopProxy.java:252) ~[?:?]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:192) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.handle(NetworkManager.java:141) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.sendPacket(PlayerConnection.java:911) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityPlayer.a(EntityPlayer.java:773) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.Container.b(Container.java:84) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.Container.addSlotListener(Container.java:60) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityPlayer.syncInventory(EntityPlayer.java:177) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerList.a(PlayerList.java:190) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.LoginListener.b(LoginListener.java:144) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.LoginListener.c(LoginListener.java:54) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:231) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.ServerConnection.c(ServerConnection.java:148) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:875) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.ClassNotFoundException: com.comphenix.net.sf.cglib.proxy.Factory
+	... 29 more
+[16:48:51] [Server thread/ERROR]: Parameters: 
+  net.minecraft.server.v1_8_R3.PacketPlayOutSetSlot@74677372[
+    a=0
+    b=43
+    c=1xtile.furnace@0
+  ]
+
+[16:48:51] [Server thread/ERROR]: [LibsDisguises] Unhandled exception occurred in onPacketSending(PacketEvent) for LibsDisguises
+java.lang.NoClassDefFoundError: com/comphenix/net/sf/cglib/proxy/Factory
+	at me.libraryaddict.disguise.utilities.PacketsManager$4.onPacketSending(PacketsManager.java:1019) ~[?:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokeSendingListener(SortedPacketListenerList.java:219) ~[?:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokeUnpackedPacketSending(SortedPacketListenerList.java:204) ~[?:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokePacketSending(SortedPacketListenerList.java:149) ~[?:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokePacketSending(SortedPacketListenerList.java:139) ~[?:?]
+	at com.comphenix.protocol.injector.PacketFilterManager.postPacketToListeners(PacketFilterManager.java:553) ~[?:?]
+	at com.comphenix.protocol.injector.PacketFilterManager.invokePacketSending(PacketFilterManager.java:526) ~[?:?]
+	at com.comphenix.protocol.injector.netty.manager.NetworkManagerInjector.onPacketSending(NetworkManagerInjector.java:100) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyChannelInjector.processOutbound(NettyChannelInjector.java:553) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyChannelInjector$2.doProxyRunnable(NettyChannelInjector.java:456) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.proxyRunnable(NettyEventLoopProxy.java:43) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.execute(NettyEventLoopProxy.java:252) ~[?:?]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:192) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.handle(NetworkManager.java:141) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.sendPacket(PlayerConnection.java:911) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityPlayer.a(EntityPlayer.java:773) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.Container.b(Container.java:84) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.Container.addSlotListener(Container.java:60) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityPlayer.syncInventory(EntityPlayer.java:177) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerList.a(PlayerList.java:190) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.LoginListener.b(LoginListener.java:144) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.LoginListener.c(LoginListener.java:54) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:231) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.ServerConnection.c(ServerConnection.java:148) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:875) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.ClassNotFoundException: com.comphenix.net.sf.cglib.proxy.Factory
+	... 29 more
+[16:48:51] [Server thread/ERROR]: Parameters: 
+  net.minecraft.server.v1_8_R3.PacketPlayOutSetSlot@75b31508[
+    a=0
+    b=44
+    c=1xtile.workbench@0
+  ]
+
+[16:48:51] [Server thread/INFO]: Zebraburger123[/[0:0:0:0:0:0:0:1]:47954] logged in with entity id 184 at ([world]554.3716678269958, 75.66359678746122, -404.7685028150446)
+[16:48:51] [Netty Server IO #1/ERROR]: [LibsDisguises] Unhandled exception occurred in onPacketReceiving(PacketEvent) for LibsDisguises
+java.lang.NoClassDefFoundError: com/comphenix/net/sf/cglib/proxy/Factory
+	at me.libraryaddict.disguise.utilities.PacketsManager$4.onPacketReceiving(PacketsManager.java:864) ~[?:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokeReceivingListener(SortedPacketListenerList.java:122) ~[?:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokePacketRecieving(SortedPacketListenerList.java:75) ~[?:?]
+	at com.comphenix.protocol.injector.PacketFilterManager.postPacketToListeners(PacketFilterManager.java:555) ~[?:?]
+	at com.comphenix.protocol.injector.PacketFilterManager.invokePacketReceiving(PacketFilterManager.java:519) ~[?:?]
+	at com.comphenix.protocol.injector.netty.manager.NetworkManagerInjector.onPacketReceiving(NetworkManagerInjector.java:127) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyChannelInjector.processInboundPacket(NettyChannelInjector.java:488) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.InboundPacketInterceptor.channelRead(InboundPacketInterceptor.java:33) ~[?:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:163) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:163) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:163) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.handler.timeout.ReadTimeoutHandler.channelRead(ReadTimeoutHandler.java:150) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:787) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:130) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:511) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:430) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:384) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:354) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.ClassNotFoundException: com.comphenix.net.sf.cglib.proxy.Factory
+	... 30 more
+[16:48:51] [Netty Server IO #1/ERROR]: Parameters: 
+  net.minecraft.server.v1_8_R3.PacketPlayInHeldItemSlot@7c74eaca[
+    itemInHandIndex=3
+  ]
+
+[16:48:51] [Server thread/WARN]: File motd.txt does not exist. Creating one for you.
+[16:49:45] [Server thread/INFO]: Zebraburger123 issued server command: /help
+[16:50:03] [Server thread/INFO]: Zebraburger123 issued server command: /help essentials
+[16:50:34] [Server thread/INFO]: Zebraburger123 issued server command: /help essentials 2
+[16:50:49] [Server thread/INFO]: Zebraburger123 issued server command: /god
+[16:50:58] [Server thread/INFO]: Zebraburger123 issued server command: /help essentials 3
+[16:51:12] [Server thread/INFO]: Zebraburger123 issued server command: /compass
+[16:51:26] [Server thread/INFO]: Zebraburger123 issued server command: /antioch
+[16:51:48] [Server thread/INFO]: Zebraburger123 issued server command: /balance
+[16:51:58] [Server thread/INFO]: Zebraburger123 issued server command: /money 10000
+[16:52:09] [Server thread/INFO]: Zebraburger123 issued server command: /money Zebraburger123 1000000000
+[16:52:18] [Server thread/INFO]: Zebraburger123 issued server command: /money Zebraburger123
+[16:52:32] [Server thread/INFO]: Zebraburger123 issued server command: /give money
+[16:52:42] [Server thread/INFO]: Zebraburger123 issued server command: /help essentials 3
+[16:52:47] [Server thread/INFO]: Zebraburger123 issued server command: /help essentials 4
+[16:53:10] [Server thread/INFO]: Zebraburger123 issued server command: /help essentials 5
+[16:53:43] [Server thread/INFO]: Zebraburger123 issued server command: /help essentials 6
+[16:54:07] [Server thread/INFO]: Zebraburger123 issued server command: /powertooltoggle
+[16:54:12] [Server thread/INFO]: Zebraburger123 issued server command: /powertooltoggle
+[16:54:22] [Server thread/INFO]: Zebraburger123 issued server command: /help essentials 7
+[16:54:44] [Server thread/INFO]: Zebraburger123 issued server command: /customtext
+[16:54:53] [Server thread/INFO]: Zebraburger123 issued server command: /customtext fire
+[16:55:07] [Server thread/INFO]: Zebraburger123 issued server command: /help essentials 8
+[16:55:32] [Server thread/INFO]: Zebraburger123 issued server command: /powerrtool
+[16:55:38] [Server thread/INFO]: Zebraburger123 issued server command: /powertool
+[16:55:49] [Server thread/INFO]: Zebraburger123 issued server command: /help powertool
+[16:56:02] [Server thread/INFO]: Zebraburger123 issued server command: /powertool tnt
+[16:56:11] [Server thread/INFO]: Zebraburger123 issued server command: /powertool summon tnt
+[16:56:14] [Server thread/INFO]: Zebraburger123 issued server command: /summon tnt
+[16:56:14] [Server thread/WARN]: Skipping Entity with id tnt
+[16:56:14] [Server thread/INFO]: [Zebraburger123: Unable to summon object]
+[16:56:14] [Server thread/INFO]: [PT] Zebraburger123 issued server command: /summon tnt
+[16:56:17] [Server thread/INFO]: Zebraburger123 issued server command: /summon tnt
+[16:56:17] [Server thread/WARN]: Skipping Entity with id tnt
+[16:56:17] [Server thread/INFO]: [Zebraburger123: Unable to summon object]
+[16:56:17] [Server thread/INFO]: [PT] Zebraburger123 issued server command: /summon tnt
+[16:56:20] [Server thread/INFO]: Zebraburger123 issued server command: /summon tnt
+[16:56:20] [Server thread/WARN]: Skipping Entity with id tnt
+[16:56:20] [Server thread/INFO]: [Zebraburger123: Unable to summon object]
+[16:56:20] [Server thread/INFO]: [PT] Zebraburger123 issued server command: /summon tnt
+[16:56:21] [Server thread/INFO]: Zebraburger123 issued server command: /summon tnt
+[16:56:21] [Server thread/WARN]: Skipping Entity with id tnt
+[16:56:21] [Server thread/INFO]: [Zebraburger123: Unable to summon object]
+[16:56:21] [Server thread/INFO]: [PT] Zebraburger123 issued server command: /summon tnt
+[16:56:22] [Server thread/INFO]: Zebraburger123 issued server command: /summon tnt
+[16:56:22] [Server thread/WARN]: Skipping Entity with id tnt
+[16:56:22] [Server thread/INFO]: [Zebraburger123: Unable to summon object]
+[16:56:22] [Server thread/INFO]: [PT] Zebraburger123 issued server command: /summon tnt
+[16:56:24] [Server thread/INFO]: Zebraburger123 issued server command: /summon tnt
+[16:56:24] [Server thread/WARN]: Skipping Entity with id tnt
+[16:56:24] [Server thread/INFO]: [Zebraburger123: Unable to summon object]
+[16:56:24] [Server thread/INFO]: [PT] Zebraburger123 issued server command: /summon tnt
+[16:56:25] [Server thread/INFO]: Zebraburger123 issued server command: /summon tnt
+[16:56:25] [Server thread/WARN]: Skipping Entity with id tnt
+[16:56:25] [Server thread/INFO]: [Zebraburger123: Unable to summon object]
+[16:56:25] [Server thread/INFO]: [PT] Zebraburger123 issued server command: /summon tnt
+[16:56:36] [Server thread/INFO]: Zebraburger123 issued server command: /powertool setblock grass
+[16:56:37] [Server thread/INFO]: Zebraburger123 issued server command: /setblock grass
+[16:56:37] [Server thread/INFO]: [PT] Zebraburger123 issued server command: /setblock grass
+[16:56:39] [Server thread/INFO]: Zebraburger123 issued server command: /setblock grass
+[16:56:39] [Server thread/INFO]: [PT] Zebraburger123 issued server command: /setblock grass
+[16:56:44] [Server thread/INFO]: Zebraburger123 issued server command: /powertool setblock grass ~ ~ ~
+[16:56:45] [Server thread/INFO]: Zebraburger123 issued server command: /setblock grass ~ ~ ~
+[16:56:45] [Server thread/INFO]: [Zebraburger123: 'grass' is not a valid number]
+[16:56:45] [Server thread/INFO]: [PT] Zebraburger123 issued server command: /setblock grass ~ ~ ~
+[16:56:48] [Server thread/INFO]: Zebraburger123 issued server command: /setblock grass ~ ~ ~
+[16:56:48] [Server thread/INFO]: [Zebraburger123: 'grass' is not a valid number]
+[16:56:48] [Server thread/INFO]: [PT] Zebraburger123 issued server command: /setblock grass ~ ~ ~
+[16:56:49] [Server thread/INFO]: Zebraburger123 issued server command: /setblock grass ~ ~ ~
+[16:56:49] [Server thread/INFO]: [Zebraburger123: 'grass' is not a valid number]
+[16:56:49] [Server thread/INFO]: [PT] Zebraburger123 issued server command: /setblock grass ~ ~ ~
+[16:56:49] [Server thread/INFO]: Zebraburger123 issued server command: /setblock grass ~ ~ ~
+[16:56:49] [Server thread/INFO]: [Zebraburger123: 'grass' is not a valid number]
+[16:56:49] [Server thread/INFO]: [PT] Zebraburger123 issued server command: /setblock grass ~ ~ ~
+[16:56:49] [Server thread/INFO]: Zebraburger123 issued server command: /setblock grass ~ ~ ~
+[16:56:49] [Server thread/INFO]: [Zebraburger123: 'grass' is not a valid number]
+[16:56:49] [Server thread/INFO]: [PT] Zebraburger123 issued server command: /setblock grass ~ ~ ~
+[16:56:50] [Server thread/INFO]: Zebraburger123 issued server command: /setblock grass ~ ~ ~
+[16:56:50] [Server thread/INFO]: [Zebraburger123: 'grass' is not a valid number]
+[16:56:50] [Server thread/INFO]: [PT] Zebraburger123 issued server command: /setblock grass ~ ~ ~
+[16:56:56] [Server thread/INFO]: Zebraburger123 issued server command: /powertool setblock grass ~ ~ ~ replace
+[16:56:57] [Server thread/INFO]: Zebraburger123 issued server command: /setblock grass ~ ~ ~ replace
+[16:56:57] [Server thread/INFO]: [Zebraburger123: 'grass' is not a valid number]
+[16:56:57] [Server thread/INFO]: [PT] Zebraburger123 issued server command: /setblock grass ~ ~ ~ replace
+[16:57:11] [Server thread/INFO]: Zebraburger123 issued server command: /powertooltoggle
+[16:57:19] [Server thread/INFO]: Zebraburger123 issued server command: /help essentials 9
+[16:57:36] [Server thread/INFO]: Zebraburger123 issued server command: /help essentials 10
+[16:57:53] [Server thread/INFO]: Zebraburger123 issued server command: /help essentials 11
+[16:58:07] [Server thread/INFO]: Zebraburger123 issued server command: /help essentials 12
+[16:58:16] [Server thread/INFO]: Zebraburger123 issued server command: /help essentials 13
+[16:58:26] [Server thread/INFO]: Zebraburger123 issued server command: /help essentials 14
+[16:58:45] [Server thread/INFO]: Zebraburger123 issued server command: /help essentials 15
+[17:00:25] [Server thread/INFO]: Zebraburger123 issued server command: /setworth 100000
+[17:00:56] [Server thread/INFO]: Zebraburger123 issued server command: /nuke
+[17:01:15] [Server thread/INFO]: Zebraburger123 issued server command: /help essentials 16
+[17:01:47] [Server thread/INFO]: Zebraburger123 issued server command: /help essentials 17
+[17:02:01] [Netty Server IO #1/ERROR]: [LibsDisguises] Unhandled exception number 32 occurred in onPacketReceiving(PacketEvent) for LibsDisguises
+java.lang.NoClassDefFoundError: com/comphenix/net/sf/cglib/proxy/Factory
+	at me.libraryaddict.disguise.utilities.PacketsManager$4.onPacketReceiving(PacketsManager.java:864) ~[?:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokeReceivingListener(SortedPacketListenerList.java:122) ~[?:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokePacketRecieving(SortedPacketListenerList.java:75) ~[?:?]
+	at com.comphenix.protocol.injector.PacketFilterManager.postPacketToListeners(PacketFilterManager.java:555) ~[?:?]
+	at com.comphenix.protocol.injector.PacketFilterManager.invokePacketReceiving(PacketFilterManager.java:519) ~[?:?]
+	at com.comphenix.protocol.injector.netty.manager.NetworkManagerInjector.onPacketReceiving(NetworkManagerInjector.java:127) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyChannelInjector.processInboundPacket(NettyChannelInjector.java:488) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.InboundPacketInterceptor.channelRead(InboundPacketInterceptor.java:33) ~[?:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:163) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:163) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:163) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.handler.timeout.ReadTimeoutHandler.channelRead(ReadTimeoutHandler.java:150) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:787) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:130) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:511) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:430) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:384) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:354) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.ClassNotFoundException: com.comphenix.net.sf.cglib.proxy.Factory
+	... 30 more
+[17:02:16] [Server thread/INFO]: Zebraburger123 issued server command: /setworth 10000000000
+[17:02:19] [Server thread/INFO]: Zebraburger123 issued server command: /sell
+[17:02:31] [Server thread/INFO]: Zebraburger123 issued server command: /sell hand 1000000000
+[17:02:44] [Server thread/INFO]: Zebraburger123 issued server command: /sell hand -1
+[17:02:44] [Server thread/INFO]: §eZebraburger123 §asold§e wood§a for §e$250,000,000,000 §a(25 items at $10,000,000,000 each).
+[17:03:13] [Netty Server IO #1/ERROR]: [LibsDisguises] Unhandled exception number 64 occurred in onPacketReceiving(PacketEvent) for LibsDisguises
+java.lang.NoClassDefFoundError: com/comphenix/net/sf/cglib/proxy/Factory
+	at me.libraryaddict.disguise.utilities.PacketsManager$4.onPacketReceiving(PacketsManager.java:864) ~[?:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokeReceivingListener(SortedPacketListenerList.java:122) ~[?:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokePacketRecieving(SortedPacketListenerList.java:75) ~[?:?]
+	at com.comphenix.protocol.injector.PacketFilterManager.postPacketToListeners(PacketFilterManager.java:555) ~[?:?]
+	at com.comphenix.protocol.injector.PacketFilterManager.invokePacketReceiving(PacketFilterManager.java:519) ~[?:?]
+	at com.comphenix.protocol.injector.netty.manager.NetworkManagerInjector.onPacketReceiving(NetworkManagerInjector.java:127) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyChannelInjector.processInboundPacket(NettyChannelInjector.java:488) ~[?:?]
+	at com.comphenix.protocol.injector.netty.channel.InboundPacketInterceptor.channelRead(InboundPacketInterceptor.java:33) ~[?:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:163) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:163) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:163) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.handler.timeout.ReadTimeoutHandler.channelRead(ReadTimeoutHandler.java:150) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:787) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:130) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:511) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:430) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:384) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:354) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.ClassNotFoundException: com.comphenix.net.sf.cglib.proxy.Factory
+	... 30 more
+[17:03:17] [Server thread/INFO]: Zebraburger123 issued server command: /sell hand -1
+[17:03:17] [Server thread/INFO]: §eZebraburger123 §asold§e wood§a for §e$640,000,000,000 §a(64 items at $10,000,000,000 each).
+[17:03:27] [Server thread/INFO]: Zebraburger123 issued server command: /sell hand -1
+[17:03:27] [Server thread/INFO]: §eZebraburger123 §asold§e wood§a for §e$640,000,000,000 §a(64 items at $10,000,000,000 each).
+[17:03:52] [Server thread/INFO]: Zebraburger123 issued server command: /balance
+[17:04:09] [Server thread/INFO]: Zebraburger123 issued server command: /balanceset 100000000
+[17:04:18] [Server thread/INFO]: Zebraburger123 issued server command: /setbalance 100000000
+[17:04:27] [Server thread/INFO]: Zebraburger123 issued server command: /balance set 100000000
+[17:05:42] [Server thread/INFO]: Zebraburger123 issued server command: /fakelogin
+[17:06:22] [Server thread/INFO]: Zebraburger123 lost connection: Disconnected
+[17:06:22] [Server thread/INFO]: Zebraburger123 left the game.
