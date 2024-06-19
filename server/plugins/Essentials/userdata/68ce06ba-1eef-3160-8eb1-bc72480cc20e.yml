@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 0:0:0:0:0:0:0:1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1718370933749
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1718744186711
+  login: 1718740935629
+money: '0'
+last-account-name: Zebraburger123
+logoutlocation:
+  world: 944dd853-49fa-413f-b11b-6b4107f0d471
+  world-name: world
+  x: 268.6534416003697
+  y: 63.0
+  z: -160.15704801589575
+  yaw: -183.15069580078125
+  pitch: 33.60000991821289
+lastlocation:
+  world: 944dd853-49fa-413f-b11b-6b4107f0d471
+  world-name: world
+  x: 244.63788037225126
+  y: 67.0
+  z: -170.71337714325176
+  yaw: -111.0006103515625
+  pitch: 27.29999351501465

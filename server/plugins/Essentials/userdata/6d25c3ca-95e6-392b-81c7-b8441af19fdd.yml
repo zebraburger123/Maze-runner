@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 0:0:0:0:0:0:0:1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1718272424957
+  login: 1718267603044
+money: '0'
+last-account-name: zane_verdier
+lastlocation:
+  world: 944dd853-49fa-413f-b11b-6b4107f0d471
+  world-name: world
+  x: 252.99552421046963
+  y: 71.1116330379996
+  z: -58.699999988079064
+  yaw: -112.50042724609375
+  pitch: 42.44999694824219
+logoutlocation:
+  world: 944dd853-49fa-413f-b11b-6b4107f0d471
+  world-name: world
+  x: 231.0
+  y: 68.0
+  z: -44.0
+  yaw: 0.0
+  pitch: 0.0
