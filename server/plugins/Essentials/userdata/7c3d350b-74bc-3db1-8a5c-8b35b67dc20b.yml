@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 0:0:0:0:0:0:0:1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1718273977065
+  login: 1718273641204
+money: '0'
+last-account-name: tomatoboy
+logoutlocation:
+  world: 944dd853-49fa-413f-b11b-6b4107f0d471
+  world-name: world
+  x: 289.85028577317036
+  y: 70.0
+  z: -51.70211902934551
+  yaw: 149.5501708984375
+  pitch: 31.4999942779541

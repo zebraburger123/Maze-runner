@@ -1,0 +1,651 @@
+[19:02:32] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[19:02:32] [Server thread/INFO]: Loading properties
+[19:02:32] [Server thread/INFO]: Default game type: SURVIVAL
+[19:02:33] [Server thread/INFO]: This server is running CraftBukkit version git-PaperSpigot-445 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+[19:02:33] [Server thread/INFO]: Debug logging is disabled
+[19:02:33] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
+[19:02:33] [Server thread/INFO]: Server Ping Player Sample Count: 12
+
+[19:02:33] [Server thread/INFO]: Using 4 threads for Netty based IO
+[19:02:33] [Server thread/INFO]: Data value allowed items: 
+[19:02:33] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
+
+[19:02:33] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
+
+[19:02:33] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.stackableBuckets(PaperSpigotConfig.java:192)
+
+[19:02:33] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+[19:02:33] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+
+[19:02:33] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.readConfig(PaperSpigotConfig.java:84)
+
+[19:02:33] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.init(PaperSpigotConfig.java:62)
+
+[19:02:33] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:181)
+
+[19:02:33] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
+
+[19:02:33] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[19:02:33] [Server thread/INFO]: Generating keypair
+[19:02:33] [Server thread/INFO]: Starting Minecraft server on localhost:25565
+[19:02:33] [Server thread/INFO]: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+[19:02:33] [Server thread/INFO]: Using default channel type
+[19:02:33] [Server thread/WARN]: Plugin `Multiverse_Spawn v1.1' uses the space-character (0x20) in its name `Multiverse Spawn' - this is discouraged
+[19:02:33] [Server thread/ERROR]: Could not load 'plugins/OptiFine_1.8.8_HD_U_I7.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
+	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:152) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:136) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugins(CraftServer.java:293) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:202) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.io.FileNotFoundException: Jar does not contain plugin.yml
+	... 6 more
+[19:02:33] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[19:02:34] [Server thread/INFO]: [OpenInventory] Loading OpenInventory v1.2
+[19:02:34] [Server thread/INFO]: [CoreProtect] Loading CoreProtect v2.12.0
+[19:02:34] [Server thread/INFO]: [SimpleTpa] Loading SimpleTpa v6.4
+[19:02:34] [Server thread/INFO]: [MoreCommands] Loading MoreCommands v1.20.0
+[19:02:34] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.4.131
+[19:02:34] [Server thread/INFO]: [FastAsyncWorldEdit] Loading FastAsyncWorldEdit v1.2.1
+[19:02:34] [Server thread/INFO]: [Multiverse_Spawn] Loading Multiverse_Spawn v1.1
+[19:02:34] [Server thread/INFO]: [GroupManager] Loading GroupManager v3.2 (Phoenix)
+[19:02:34] [Server thread/INFO]: [GroupManager] Unable to make protected void java.net.URLClassLoader.addURL(java.net.URL) accessible: module java.base does not "opens java.net" to unnamed module @53f09d6
+[19:02:34] [Server thread/WARN]: java.lang.reflect.InaccessibleObjectException: Unable to make protected void java.net.URLClassLoader.addURL(java.net.URL) accessible: module java.base does not "opens java.net" to unnamed module @53f09d6
+
+[19:02:34] [Server thread/WARN]: 	at java.base/java.lang.reflect.AccessibleObject.throwInaccessibleObjectException(AccessibleObject.java:391)
+
+[19:02:34] [Server thread/WARN]: 	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:367)
+
+[19:02:34] [Server thread/WARN]: 	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:315)
+
+[19:02:34] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.checkCanSetAccessible(Method.java:203)
+
+[19:02:34] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.setAccessible(Method.java:197)
+
+[19:02:34] [Server thread/WARN]: 	at org.anjocaido.groupmanager.utils.InjectorUtils.ensureInitiated(InjectorUtils.java:29)
+
+[19:02:34] [Server thread/WARN]: 	at org.anjocaido.groupmanager.utils.InjectorUtils.loadJar(InjectorUtils.java:36)
+
+[19:02:34] [Server thread/WARN]: 	at org.anjocaido.groupmanager.dependencies.Dependency.lambda$load$0(Dependency.java:48)
+
+[19:02:34] [Server thread/WARN]: 	at org.anjocaido.groupmanager.dependencies.Dependency.load(Dependency.java:64)
+
+[19:02:34] [Server thread/WARN]: 	at org.anjocaido.groupmanager.dependencies.DependencyManager.lambda$checkDependencies$2(DependencyManager.java:56)
+
+[19:02:34] [Server thread/WARN]: 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+[19:02:34] [Server thread/WARN]: 	at org.anjocaido.groupmanager.dependencies.DependencyManager.checkDependencies(DependencyManager.java:52)
+
+[19:02:34] [Server thread/WARN]: 	at org.anjocaido.groupmanager.GroupManager.onLoad(GroupManager.java:132)
+
+[19:02:34] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugins(CraftServer.java:298)
+
+[19:02:34] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:202)
+
+[19:02:34] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
+
+[19:02:34] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[19:02:34] [Server thread/INFO]: [GroupManager] Unable to make protected void java.net.URLClassLoader.addURL(java.net.URL) accessible: module java.base does not "opens java.net" to unnamed module @53f09d6
+[19:02:34] [Server thread/WARN]: java.lang.reflect.InaccessibleObjectException: Unable to make protected void java.net.URLClassLoader.addURL(java.net.URL) accessible: module java.base does not "opens java.net" to unnamed module @53f09d6
+
+[19:02:34] [Server thread/WARN]: 	at java.base/java.lang.reflect.AccessibleObject.throwInaccessibleObjectException(AccessibleObject.java:391)
+
+[19:02:34] [Server thread/WARN]: 	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:367)
+
+[19:02:34] [Server thread/WARN]: 	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:315)
+
+[19:02:34] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.checkCanSetAccessible(Method.java:203)
+
+[19:02:34] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.setAccessible(Method.java:197)
+
+[19:02:34] [Server thread/WARN]: 	at org.anjocaido.groupmanager.utils.InjectorUtils.ensureInitiated(InjectorUtils.java:29)
+
+[19:02:34] [Server thread/WARN]: 	at org.anjocaido.groupmanager.utils.InjectorUtils.loadJar(InjectorUtils.java:36)
+
+[19:02:34] [Server thread/WARN]: 	at org.anjocaido.groupmanager.dependencies.Dependency.lambda$load$0(Dependency.java:48)
+
+[19:02:34] [Server thread/WARN]: 	at org.anjocaido.groupmanager.dependencies.Dependency.load(Dependency.java:64)
+
+[19:02:34] [Server thread/WARN]: 	at org.anjocaido.groupmanager.dependencies.DependencyManager.lambda$checkDependencies$2(DependencyManager.java:56)
+
+[19:02:34] [Server thread/WARN]: 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+[19:02:34] [Server thread/WARN]: 	at org.anjocaido.groupmanager.dependencies.DependencyManager.checkDependencies(DependencyManager.java:52)
+
+[19:02:34] [Server thread/WARN]: 	at org.anjocaido.groupmanager.GroupManager.onLoad(GroupManager.java:132)
+
+[19:02:34] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugins(CraftServer.java:298)
+
+[19:02:34] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:202)
+
+[19:02:34] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
+
+[19:02:34] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[19:02:34] [Server thread/INFO]: [GroupManager] Unable to make protected void java.net.URLClassLoader.addURL(java.net.URL) accessible: module java.base does not "opens java.net" to unnamed module @53f09d6
+[19:02:34] [Server thread/WARN]: java.lang.reflect.InaccessibleObjectException: Unable to make protected void java.net.URLClassLoader.addURL(java.net.URL) accessible: module java.base does not "opens java.net" to unnamed module @53f09d6
+
+[19:02:34] [Server thread/WARN]: 	at java.base/java.lang.reflect.AccessibleObject.throwInaccessibleObjectException(AccessibleObject.java:391)
+
+[19:02:34] [Server thread/WARN]: 	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:367)
+
+[19:02:34] [Server thread/WARN]: 	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:315)
+
+[19:02:34] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.checkCanSetAccessible(Method.java:203)
+
+[19:02:34] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.setAccessible(Method.java:197)
+
+[19:02:34] [Server thread/WARN]: 	at org.anjocaido.groupmanager.utils.InjectorUtils.ensureInitiated(InjectorUtils.java:29)
+
+[19:02:34] [Server thread/WARN]: 	at org.anjocaido.groupmanager.utils.InjectorUtils.loadJar(InjectorUtils.java:36)
+
+[19:02:34] [Server thread/WARN]: 	at org.anjocaido.groupmanager.dependencies.Dependency.lambda$load$0(Dependency.java:48)
+
+[19:02:34] [Server thread/WARN]: 	at org.anjocaido.groupmanager.dependencies.Dependency.load(Dependency.java:64)
+
+[19:02:34] [Server thread/WARN]: 	at org.anjocaido.groupmanager.dependencies.DependencyManager.lambda$checkDependencies$2(DependencyManager.java:56)
+
+[19:02:34] [Server thread/WARN]: 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+[19:02:34] [Server thread/WARN]: 	at org.anjocaido.groupmanager.dependencies.DependencyManager.checkDependencies(DependencyManager.java:52)
+
+[19:02:34] [Server thread/WARN]: 	at org.anjocaido.groupmanager.GroupManager.onLoad(GroupManager.java:132)
+
+[19:02:34] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugins(CraftServer.java:298)
+
+[19:02:34] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:202)
+
+[19:02:34] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
+
+[19:02:34] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[19:02:34] [Server thread/INFO]: [GroupManager] Unable to make protected void java.net.URLClassLoader.addURL(java.net.URL) accessible: module java.base does not "opens java.net" to unnamed module @53f09d6
+[19:02:34] [Server thread/WARN]: java.lang.reflect.InaccessibleObjectException: Unable to make protected void java.net.URLClassLoader.addURL(java.net.URL) accessible: module java.base does not "opens java.net" to unnamed module @53f09d6
+
+[19:02:34] [Server thread/WARN]: 	at java.base/java.lang.reflect.AccessibleObject.throwInaccessibleObjectException(AccessibleObject.java:391)
+
+[19:02:34] [Server thread/WARN]: 	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:367)
+
+[19:02:34] [Server thread/WARN]: 	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:315)
+
+[19:02:34] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.checkCanSetAccessible(Method.java:203)
+
+[19:02:34] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.setAccessible(Method.java:197)
+
+[19:02:34] [Server thread/WARN]: 	at org.anjocaido.groupmanager.utils.InjectorUtils.ensureInitiated(InjectorUtils.java:29)
+
+[19:02:34] [Server thread/WARN]: 	at org.anjocaido.groupmanager.utils.InjectorUtils.loadJar(InjectorUtils.java:36)
+
+[19:02:34] [Server thread/WARN]: 	at org.anjocaido.groupmanager.dependencies.Dependency.lambda$load$0(Dependency.java:48)
+
+[19:02:34] [Server thread/WARN]: 	at org.anjocaido.groupmanager.dependencies.Dependency.load(Dependency.java:64)
+
+[19:02:34] [Server thread/WARN]: 	at org.anjocaido.groupmanager.dependencies.DependencyManager.lambda$checkDependencies$2(DependencyManager.java:56)
+
+[19:02:34] [Server thread/WARN]: 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+[19:02:34] [Server thread/WARN]: 	at org.anjocaido.groupmanager.dependencies.DependencyManager.checkDependencies(DependencyManager.java:52)
+
+[19:02:34] [Server thread/WARN]: 	at org.anjocaido.groupmanager.GroupManager.onLoad(GroupManager.java:132)
+
+[19:02:34] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugins(CraftServer.java:298)
+
+[19:02:34] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:202)
+
+[19:02:34] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
+
+[19:02:34] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[19:02:34] [Server thread/INFO]: [GroupManager] Unable to make protected void java.net.URLClassLoader.addURL(java.net.URL) accessible: module java.base does not "opens java.net" to unnamed module @53f09d6
+[19:02:34] [Server thread/WARN]: java.lang.reflect.InaccessibleObjectException: Unable to make protected void java.net.URLClassLoader.addURL(java.net.URL) accessible: module java.base does not "opens java.net" to unnamed module @53f09d6
+
+[19:02:34] [Server thread/WARN]: 	at java.base/java.lang.reflect.AccessibleObject.throwInaccessibleObjectException(AccessibleObject.java:391)
+
+[19:02:34] [Server thread/WARN]: 	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:367)
+
+[19:02:34] [Server thread/WARN]: 	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:315)
+
+[19:02:34] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.checkCanSetAccessible(Method.java:203)
+
+[19:02:34] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.setAccessible(Method.java:197)
+
+[19:02:34] [Server thread/WARN]: 	at org.anjocaido.groupmanager.utils.InjectorUtils.ensureInitiated(InjectorUtils.java:29)
+
+[19:02:34] [Server thread/WARN]: 	at org.anjocaido.groupmanager.utils.InjectorUtils.loadJar(InjectorUtils.java:36)
+
+[19:02:34] [Server thread/WARN]: 	at org.anjocaido.groupmanager.dependencies.Dependency.lambda$load$0(Dependency.java:48)
+
+[19:02:34] [Server thread/WARN]: 	at org.anjocaido.groupmanager.dependencies.Dependency.load(Dependency.java:64)
+
+[19:02:34] [Server thread/WARN]: 	at org.anjocaido.groupmanager.dependencies.DependencyManager.lambda$checkDependencies$2(DependencyManager.java:56)
+
+[19:02:34] [Server thread/WARN]: 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+[19:02:34] [Server thread/WARN]: 	at org.anjocaido.groupmanager.dependencies.DependencyManager.checkDependencies(DependencyManager.java:52)
+
+[19:02:34] [Server thread/WARN]: 	at org.anjocaido.groupmanager.GroupManager.onLoad(GroupManager.java:132)
+
+[19:02:34] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugins(CraftServer.java:298)
+
+[19:02:34] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:202)
+
+[19:02:34] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
+
+[19:02:34] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[19:02:34] [Server thread/INFO]: [GroupManager] Unable to make protected void java.net.URLClassLoader.addURL(java.net.URL) accessible: module java.base does not "opens java.net" to unnamed module @53f09d6
+[19:02:34] [Server thread/WARN]: java.lang.reflect.InaccessibleObjectException: Unable to make protected void java.net.URLClassLoader.addURL(java.net.URL) accessible: module java.base does not "opens java.net" to unnamed module @53f09d6
+
+[19:02:34] [Server thread/WARN]: 	at java.base/java.lang.reflect.AccessibleObject.throwInaccessibleObjectException(AccessibleObject.java:391)
+
+[19:02:34] [Server thread/WARN]: 	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:367)
+
+[19:02:34] [Server thread/WARN]: 	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:315)
+
+[19:02:34] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.checkCanSetAccessible(Method.java:203)
+
+[19:02:34] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.setAccessible(Method.java:197)
+
+[19:02:34] [Server thread/WARN]: 	at org.anjocaido.groupmanager.utils.InjectorUtils.ensureInitiated(InjectorUtils.java:29)
+
+[19:02:34] [Server thread/WARN]: 	at org.anjocaido.groupmanager.utils.InjectorUtils.loadJar(InjectorUtils.java:36)
+
+[19:02:34] [Server thread/WARN]: 	at org.anjocaido.groupmanager.dependencies.Dependency.lambda$load$0(Dependency.java:48)
+
+[19:02:34] [Server thread/WARN]: 	at org.anjocaido.groupmanager.dependencies.Dependency.load(Dependency.java:64)
+
+[19:02:34] [Server thread/WARN]: 	at org.anjocaido.groupmanager.dependencies.DependencyManager.lambda$checkDependencies$2(DependencyManager.java:56)
+
+[19:02:34] [Server thread/WARN]: 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+[19:02:34] [Server thread/WARN]: 	at org.anjocaido.groupmanager.dependencies.DependencyManager.checkDependencies(DependencyManager.java:52)
+
+[19:02:34] [Server thread/WARN]: 	at org.anjocaido.groupmanager.GroupManager.onLoad(GroupManager.java:132)
+
+[19:02:34] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugins(CraftServer.java:298)
+
+[19:02:34] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:202)
+
+[19:02:34] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
+
+[19:02:34] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[19:02:34] [Server thread/INFO]: [GroupManager] Dependencies: Warning unknown state!
+[19:02:34] [Server thread/INFO]: [ClearLag] Loading ClearLag v3.2.2
+[19:02:34] [Server thread/INFO]: [CrackShot] Loading CrackShot v0.98.11
+[19:02:34] [Server thread/INFO]: [SimpleHomes] Loading SimpleHomes v2.2
+[19:02:34] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
+[19:02:34] [Server thread/INFO]: [MyCommand] Loading MyCommand v5.7.4
+[19:02:34] [Server thread/INFO]: [NuclearBomb] Loading NuclearBomb v1.1.0-SNAPSHOT
+[19:02:34] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v2.5-b699
+[19:02:34] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1;no_git_id
+[19:02:34] [Server thread/INFO]: [Essentials] Loading Essentials v2.20.1
+[19:02:34] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.20.1
+[19:02:34] [Server thread/INFO]: [Multiverse-CoreFix] Loading Multiverse-CoreFix v1.2
+[19:02:34] [Server thread/INFO]: [SuperVanish] Loading SuperVanish v6.2.12
+[19:02:34] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn v2.20.1
+[19:02:34] [Server thread/INFO]: [AuthMe] Loading AuthMe v5.6.0-beta2-b2453
+[19:02:34] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.131
+[19:02:35] [Server thread/INFO]: [0;36;1m       [0;36;22m __    [m
+
+[19:02:35] [Server thread/INFO]: [0;36;1m  |    [0;36;22m|__)   [0;32;22mLuckPerms[m [0;36;1mv5.4.131[m
+
+[19:02:35] [Server thread/INFO]: [0;36;1m  |___ [0;36;22m|      [0;30;1mRunning on Bukkit - CraftBukkit[m
+
+[19:02:35] [Server thread/INFO]: [m
+
+[19:02:35] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[19:02:35] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[19:02:36] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[19:02:36] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[19:02:36] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1917ms)
+[19:02:36] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v1.2.1
+[19:02:37] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[19:02:37] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[19:02:37] [Server thread/INFO]: [Vault] [Permission] GroupManager found: Waiting
+[19:02:37] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[19:02:37] [Server thread/INFO]: [Vault] [Chat] GroupManager found: Waiting
+[19:02:37] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[19:02:37] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[19:02:37] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[19:02:37] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[19:02:37] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[19:02:37] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
+[19:02:37] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[19:02:37] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[19:02:37] [Server thread/INFO]: Preparing level "world"
+[19:02:37] [Server thread/INFO]: -------- World Settings For [world] --------
+[19:02:37] [Server thread/INFO]: Mob Spawn Range: 4
+[19:02:37] [Server thread/INFO]: Anti X-Ray: true
+[19:02:37] [Server thread/INFO]: 	Engine Mode: 1
+[19:02:37] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[19:02:37] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[19:02:37] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[19:02:37] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[19:02:37] [Server thread/INFO]: Cane Growth Modifier: 100%
+[19:02:37] [Server thread/INFO]: Melon Growth Modifier: 100%
+[19:02:37] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[19:02:37] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[19:02:37] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[19:02:37] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[19:02:37] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[19:02:37] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[19:02:37] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[19:02:37] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[19:02:37] [Server thread/INFO]: Random Lighting Updates: false
+[19:02:37] [Server thread/INFO]: Structure Info Saving: true
+[19:02:37] [Server thread/INFO]: Sending up to 10 chunks per packet
+[19:02:37] [Server thread/INFO]: Max Entity Collisions: 8
+[19:02:37] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[19:02:37] [Server thread/INFO]: Max TNT Explosions: 100
+[19:02:37] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[19:02:37] [Server thread/INFO]: Item Despawn Rate: 6000
+[19:02:37] [Server thread/INFO]: Item Merge Radius: 2.5
+[19:02:37] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[19:02:37] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[19:02:37] [Server thread/INFO]: View Distance: 4
+[19:02:37] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[19:02:37] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[19:02:37] [Server thread/INFO]: Clear tick list: false
+[19:02:37] [Server thread/INFO]: Experience Merge Radius: 3.0
+[19:02:37] [Server thread/INFO]: -------- World Settings For [world] --------
+[19:02:37] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[19:02:37] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[19:02:37] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[19:02:37] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[19:02:37] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[19:02:37] [Server thread/INFO]: Water over lava flow speed: 5
+[19:02:37] [Server thread/INFO]: Fix TNT cannons: false
+[19:02:37] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[19:02:37] [Server thread/INFO]: Keep spawn chunk loaded: true
+[19:02:37] [Server thread/INFO]: World async lighting: false
+[19:02:37] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[19:02:37] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[19:02:37] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[19:02:37] [Server thread/INFO]: Mob Spawn Range: 4
+[19:02:37] [Server thread/INFO]: Anti X-Ray: true
+[19:02:37] [Server thread/INFO]: 	Engine Mode: 1
+[19:02:37] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[19:02:37] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[19:02:37] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[19:02:37] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[19:02:37] [Server thread/INFO]: Cane Growth Modifier: 100%
+[19:02:37] [Server thread/INFO]: Melon Growth Modifier: 100%
+[19:02:37] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[19:02:37] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[19:02:37] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[19:02:37] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[19:02:37] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[19:02:37] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[19:02:37] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[19:02:37] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[19:02:37] [Server thread/INFO]: Random Lighting Updates: false
+[19:02:37] [Server thread/INFO]: Structure Info Saving: true
+[19:02:37] [Server thread/INFO]: Sending up to 10 chunks per packet
+[19:02:37] [Server thread/INFO]: Max Entity Collisions: 8
+[19:02:37] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[19:02:37] [Server thread/INFO]: Max TNT Explosions: 100
+[19:02:37] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[19:02:37] [Server thread/INFO]: Item Despawn Rate: 6000
+[19:02:37] [Server thread/INFO]: Item Merge Radius: 2.5
+[19:02:37] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[19:02:37] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[19:02:37] [Server thread/INFO]: View Distance: 4
+[19:02:37] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[19:02:37] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[19:02:37] [Server thread/INFO]: Clear tick list: false
+[19:02:37] [Server thread/INFO]: Experience Merge Radius: 3.0
+[19:02:37] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[19:02:37] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[19:02:37] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[19:02:37] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[19:02:37] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[19:02:37] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[19:02:37] [Server thread/INFO]: Water over lava flow speed: 5
+[19:02:37] [Server thread/INFO]: Fix TNT cannons: false
+[19:02:37] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[19:02:37] [Server thread/INFO]: Keep spawn chunk loaded: true
+[19:02:37] [Server thread/INFO]: World async lighting: false
+[19:02:37] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[19:02:37] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[19:02:37] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[19:02:37] [Server thread/INFO]: Mob Spawn Range: 4
+[19:02:37] [Server thread/INFO]: Anti X-Ray: true
+[19:02:37] [Server thread/INFO]: 	Engine Mode: 1
+[19:02:37] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[19:02:37] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[19:02:37] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[19:02:37] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[19:02:37] [Server thread/INFO]: Cane Growth Modifier: 100%
+[19:02:37] [Server thread/INFO]: Melon Growth Modifier: 100%
+[19:02:37] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[19:02:37] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[19:02:37] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[19:02:37] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[19:02:37] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[19:02:37] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[19:02:37] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[19:02:37] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[19:02:37] [Server thread/INFO]: Random Lighting Updates: false
+[19:02:37] [Server thread/INFO]: Structure Info Saving: true
+[19:02:37] [Server thread/INFO]: Sending up to 10 chunks per packet
+[19:02:37] [Server thread/INFO]: Max Entity Collisions: 8
+[19:02:37] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[19:02:37] [Server thread/INFO]: Max TNT Explosions: 100
+[19:02:37] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[19:02:37] [Server thread/INFO]: Item Despawn Rate: 6000
+[19:02:37] [Server thread/INFO]: Item Merge Radius: 2.5
+[19:02:37] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[19:02:37] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[19:02:37] [Server thread/INFO]: View Distance: 4
+[19:02:37] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[19:02:37] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[19:02:37] [Server thread/INFO]: Clear tick list: false
+[19:02:37] [Server thread/INFO]: Experience Merge Radius: 3.0
+[19:02:37] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[19:02:37] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[19:02:37] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[19:02:37] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[19:02:37] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[19:02:37] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[19:02:37] [Server thread/INFO]: Water over lava flow speed: 5
+[19:02:37] [Server thread/INFO]: Fix TNT cannons: false
+[19:02:37] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[19:02:37] [Server thread/INFO]: Keep spawn chunk loaded: true
+[19:02:37] [Server thread/INFO]: World async lighting: false
+[19:02:37] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[19:02:37] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[19:02:37] [Server thread/INFO]: Preparing start region for level 0 (Seed: -2420697039715841366)
+[19:02:38] [Server thread/INFO]: Preparing spawn area: 20%
+[19:02:39] [Server thread/INFO]: Preparing spawn area: 46%
+[19:02:40] [Server thread/INFO]: Preparing start region for level 1 (Seed: -2420697039715841366)
+[19:02:41] [Server thread/INFO]: Preparing spawn area: 48%
+[19:02:41] [Server thread/INFO]: Preparing start region for level 2 (Seed: -2420697039715841366)
+[19:02:42] [Server thread/INFO]: Preparing spawn area: 69%
+[19:02:42] [Server thread/INFO]: [OpenInventory] Enabling OpenInventory v1.2
+[19:02:42] [Server thread/INFO]: [OpenInventory] OpenInventory v.1.2 has been enabled!
+[19:02:42] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v2.12.0
+[19:02:42] [Server thread/INFO]: CoreProtect version 2.12.0 is enabled!
+
+[19:02:43] [Server thread/INFO]: [CoreProtect] Using SQLite for data storage.
+
+[19:02:43] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v6.4
+[19:02:43] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
+
+[19:02:43] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] Simple Tpa has been enabled on version 6.4[m
+
+[19:02:43] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
+[19:02:43] [Server thread/INFO]: [MoreCommands] Enabling MoreCommands v1.20.0
+[19:02:43] [Server thread/INFO]: [Multiverse_Spawn] Enabling Multiverse_Spawn v1.1
+[19:02:43] [Server thread/INFO]: [0;31;1m---------------------[m
+
+[19:02:43] [Server thread/INFO]: [0;32;1mMultiverse Spawn[m
+
+[19:02:43] [Server thread/INFO]: [0;32;1mBy: ErkePannekake[m
+
+[19:02:43] [Server thread/INFO]: [0;32;1mVersion: 1.1[m
+
+[19:02:43] [Server thread/INFO]: [0;31;1m---------------------[m
+
+[19:02:43] [Server thread/INFO]: [GroupManager] Enabling GroupManager v3.2 (Phoenix)
+[19:02:43] [Server thread/INFO]: [GroupManager] OfflinePlayers cached ( 19 ).
+[19:02:43] [Server thread/INFO]: World Found: world
+[19:02:43] [Server thread/INFO]: Superperms support enabled.
+[19:02:43] [Server thread/INFO]: Scheduled Data Saving is set for every 10 minutes!
+[19:02:43] [Server thread/INFO]: Backups will be retained for 24 hours!
+[19:02:43] [Server thread/INFO]: DataSource - YAML
+[19:02:43] [Server thread/INFO]: version 3.2 (Phoenix) is enabled!
+[19:02:43] [Server thread/INFO]: [Vault][Permission] GroupManager hooked.
+[19:02:43] [Server thread/INFO]: [Vault] [Vault][Chat] GroupManager - Chat hooked.
+[19:02:43] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
+[19:02:43] [Server thread/INFO]: [ClearLag] Using version-adapter: LegacyVersionAdapter
+[19:02:43] [Server thread/INFO]: [ClearLag] Loading modules...
+[19:02:43] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
+[19:02:43] [Server thread/INFO]: [ClearLag] Modules have been loaded!
+[19:02:43] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
+[19:02:43] [Thread-10/INFO]: [ClearLag] Checking for updates compatible with your bukkit version [1.8]...
+[19:02:43] [Server thread/INFO]: [CrackShot] Enabling CrackShot v0.98.11
+[19:02:43] [Server thread/INFO]: [CrackShot] Gun-mode activated. Boop!
+
+[19:02:43] [Thread-10/INFO]: [ClearLag] No updates found!
+[19:02:43] [Server thread/INFO]: [SimpleHomes] Enabling SimpleHomes v2.2
+[19:02:43] [Server thread/INFO]: [MyCommand] Enabling MyCommand v5.7.4
+[19:02:43] [Server thread/INFO]: *-=-=-=-=-=-=-=-=-* MyCommand v.5.7.4*-=-=-=-=-=-=-=-=-=-*
+[19:02:43] [Server thread/INFO]: | You're using a not fully supported server version. (v1_8_R3)
+[19:02:43] [Server thread/INFO]: | Hooked on Vault 1.7.3-b131
+[19:02:43] [Server thread/INFO]: | Command file(s) found : 1
+[19:02:43] [Server thread/INFO]: | Config : Ready.
+[19:02:43] [Server thread/INFO]: | ProtocolLib not found.
+[19:02:43] [Server thread/INFO]: [MyCmd] RIGHT_CLICK_INTERACTION Block set item is null, check config.yml
+[19:02:43] [Server thread/INFO]: [MyCmd] RIGHT_CLICK_INTERACTION Block set item is null, check config.yml
+[19:02:43] [Server thread/INFO]: [MyCmd] PHYSICAL_INTERACTION Block set item is null, check config.yml
+[19:02:43] [Server thread/INFO]: [MyCmd] PHYSICAL_INTERACTION Block set item is null, check config.yml
+[19:02:43] [Server thread/INFO]: | PlaceholderAPI: Not Found
+[19:02:44] [Server thread/INFO]: | Custom commands loaded : 45
+[19:02:44] [Server thread/INFO]: | You're running the latest version of MyCommand.
+[19:02:44] [Server thread/INFO]: |          by emmerrei a.k.a. ivanfromitaly.           
+[19:02:44] [Server thread/INFO]: *-=-=-=-=-=-=-=-=-=-*   Done!   *-=-=-=-=-=-=-=-=-=-=-*
+[19:02:44] [Server thread/INFO]: [NuclearBomb] Enabling NuclearBomb v1.1.0-SNAPSHOT
+[19:02:44] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v2.5-b699
+[19:02:44] [Server thread/INFO]: -------- World Settings For [test] --------
+[19:02:44] [Server thread/INFO]: Mob Spawn Range: 4
+[19:02:44] [Server thread/INFO]: Anti X-Ray: true
+[19:02:44] [Server thread/INFO]: 	Engine Mode: 1
+[19:02:44] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[19:02:44] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[19:02:44] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[19:02:44] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[19:02:44] [Server thread/INFO]: Cane Growth Modifier: 100%
+[19:02:44] [Server thread/INFO]: Melon Growth Modifier: 100%
+[19:02:44] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[19:02:44] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[19:02:44] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[19:02:44] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[19:02:44] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[19:02:44] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[19:02:44] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[19:02:44] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[19:02:44] [Server thread/INFO]: Random Lighting Updates: false
+[19:02:44] [Server thread/INFO]: Structure Info Saving: true
+[19:02:44] [Server thread/INFO]: Sending up to 10 chunks per packet
+[19:02:44] [Server thread/INFO]: Max Entity Collisions: 8
+[19:02:44] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[19:02:44] [Server thread/INFO]: Max TNT Explosions: 100
+[19:02:44] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[19:02:44] [Server thread/INFO]: Item Despawn Rate: 6000
+[19:02:44] [Server thread/INFO]: Item Merge Radius: 2.5
+[19:02:44] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[19:02:44] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[19:02:44] [Server thread/INFO]: View Distance: 4
+[19:02:44] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[19:02:44] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[19:02:44] [Server thread/INFO]: Clear tick list: false
+[19:02:44] [Server thread/INFO]: Experience Merge Radius: 3.0
+[19:02:44] [Server thread/INFO]: -------- World Settings For [test] --------
+[19:02:44] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[19:02:44] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[19:02:44] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[19:02:44] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[19:02:44] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[19:02:44] [Server thread/INFO]: Water over lava flow speed: 5
+[19:02:44] [Server thread/INFO]: Fix TNT cannons: false
+[19:02:44] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[19:02:44] [Server thread/INFO]: Keep spawn chunk loaded: true
+[19:02:44] [Server thread/INFO]: World async lighting: false
+[19:02:44] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[19:02:44] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[19:02:44] [Server thread/INFO]: New world detected...
+[19:02:44] [Server thread/INFO]: Creating data for: test
+[19:02:44] [Server thread/INFO]: Don't forget to configure/mirror this world in config.yml.
+[19:02:44] [Server thread/INFO]: Preparing start region for level 3 (Seed: -8610187592668134106)
+[19:02:45] [Server thread/INFO]: [Multiverse-Core] 4 - World(s) loaded.
+[19:02:45] [Server thread/INFO]: [Multiverse-Core] Version 2.5-b699 (API v19) Enabled - By Rigby, fernferret, lithium3141 and main--
+[19:02:45] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1;no_git_id
+[19:02:45] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[19:02:45] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R3 as the Bukkit adapter
+[19:02:45] [Server thread/INFO]: [Essentials] Enabling Essentials v2.20.1
+[19:02:45] [Server thread/INFO]: You are running a server with limited API functionality. EssentialsX will still work, but certain features may be disabled.
+[19:02:46] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
+[19:02:46] [Server thread/INFO]: No kits found to migrate.
+[19:02:46] [Server thread/INFO]: Loaded 853 items from items.csv.
+[19:02:46] [Server thread/INFO]: Using locale en
+[19:02:46] [Server thread/INFO]: ServerListPingEvent: Spigot iterator API
+[19:02:46] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
+[19:02:46] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[19:02:46] [Server thread/INFO]: Using Vault based permissions (LuckPerms)
+[19:02:46] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.20.1
+[19:02:46] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
+[19:02:46] [Server thread/INFO]: [Multiverse-CoreFix] Enabling Multiverse-CoreFix v1.2
+[19:02:46] [Server thread/INFO]: [Multiverse-CoreFix] §b§l[§e§lMultiverse-CoreFix§b§l]§a enable without errors
+[19:02:46] [Server thread/INFO]: [SuperVanish] Enabling SuperVanish v6.2.12
+[19:02:46] [Server thread/INFO]: [SuperVanish] Please install ProtocolLib to be able to use all SuperVanish features: https://www.spigotmc.org/resources/protocollib.1997/
+[19:02:46] [Server thread/INFO]: [SuperVanish] Hooked into Essentials
+[19:02:46] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.20.1
+[19:02:46] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
+[19:02:46] [Server thread/INFO]: [AuthMe] Enabling AuthMe v5.6.0-beta2-b2453
+[19:02:46] [Server thread/INFO]: [AuthMe] SQLite Setup finished
+[19:02:46] [Server thread/INFO]: [AuthMe] Hooked into LuckPerms!
+[19:02:46] [Server thread/INFO]: [AuthMe] Hooked successfully into Essentials
+[19:02:46] [Server thread/INFO]: [AuthMe] Hooked successfully into Multiverse-Core
+[19:02:46] [Server thread/INFO]: [AuthMe] Essentials spawn file not found: '/workspaces/Maze-runner/server/plugins/Essentials/spawn.yml'
+[19:02:46] [Server thread/WARN]: [AuthMe] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[19:02:47] [Server thread/INFO]: [AuthMe] AuthMe 5.6.0-beta2 build n.2453 successfully enabled!
+[19:02:47] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[19:02:47] [Server thread/INFO]: Done (10.129s)! For help, type "help" or "?"
+[19:02:47] [Server thread/INFO]: Timings Reset
+[19:02:47] [Server thread/INFO]: [FastAsyncWorldEdit] Plugin 'WorldGuard' not found. Worldguard features disabled.
+[19:02:47] [Server thread/INFO]: [FastAsyncWorldEdit] Plugin 'PlotMe' not found. PlotMe features disabled.
+[19:02:47] [Server thread/INFO]: [FastAsyncWorldEdit] Plugin 'Towny' not found. Towny features disabled.
+[19:02:47] [Server thread/INFO]: [FastAsyncWorldEdit] Plugin 'Factions' not found. Factions features disabled.
+[19:02:47] [Server thread/INFO]: [FastAsyncWorldEdit] Plugin 'Residence' not found. Factions features disabled.
+[19:02:47] [Server thread/INFO]: [FastAsyncWorldEdit] Plugin 'GriefPrevention' not found. GriefPrevention features disabled.
+[19:02:47] [Server thread/INFO]: [FastAsyncWorldEdit] Plugin 'PlotSquared' not found. PlotSquared features disabled.
+[19:02:47] [Server thread/INFO]: [FastAsyncWorldEdit] Plugin 'PreciousStones' not found. PreciousStones features disabled.
+[19:02:47] [Craft Scheduler Thread - 1/INFO]: [AuthMe] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[19:02:47] [Craft Scheduler Thread - 1/WARN]: [AuthMe] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[19:02:47] [Craft Scheduler Thread - 1/INFO]: [AuthMe] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[19:02:47] [Craft Scheduler Thread - 1/WARN]: [AuthMe] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+[19:02:47] [Server thread/INFO]: Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[19:02:47] [Craft Scheduler Thread - 2/INFO]: §6Fetching version information...
+[19:02:47] [Server thread/INFO]: Bukkit Permissions Updated!
+[19:02:47] [Craft Scheduler Thread - 7/INFO]: [Vault] Checking for Updates ... 
+[19:02:47] [Craft Scheduler Thread - 7/INFO]: [Vault] No new version available
+[19:02:47] [Craft Scheduler Thread - 4/INFO]: [0;31;1m[21m[SimpleTpa] There is a new update available.[m
+
+[19:02:47] [Craft Scheduler Thread - 4/INFO]: [0;31;1m[SimpleTpa] There is a new update available:[m
+
+[19:02:47] [Craft Scheduler Thread - 4/INFO]: [0;31;1m[SimpleTpa] https://www.spigotmc.org/resources/simple-tpa.64270/[m
+
+[19:02:47] [Craft Scheduler Thread - 0/INFO]: [0;32;1m|==========================|[m
+
+[19:02:47] [Craft Scheduler Thread - 0/INFO]: [0;32;1m|   [0;33;1mMoreCommands v1.20.0[0;32;1m   |[m
+
+[19:02:47] [Craft Scheduler Thread - 0/INFO]: [0;32;1m| [0;37;1mMade by [0;33;22mPoisonNightBlade[0;32;1m |[m
+
+[19:02:47] [Craft Scheduler Thread - 3/INFO]: No new version available
+[19:02:47] [Craft Scheduler Thread - 0/INFO]: [0;32;1m|==========================|[m
+

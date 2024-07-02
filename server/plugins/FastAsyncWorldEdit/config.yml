@@ -1,0 +1,15 @@
+max-volume: 50000000
+max-memory-percent: 95
+command-blacklist:
+- cs
+- .s
+- restore
+- snapshot
+- delchunks
+- listchunks
+command-processor: false
+max-entities: 1337
+max-iterations: 1000
+fix-all-lighting: true
+require-selection-in-mask: false
+max-blockstates: 1337

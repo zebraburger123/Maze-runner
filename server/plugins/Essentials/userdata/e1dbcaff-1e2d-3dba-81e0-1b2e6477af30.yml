@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 0:0:0:0:0:0:0:1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1718270414435
+  login: 1718270359140
+money: '0'
+last-account-name: harris_bish
+lastlocation:
+  world: 944dd853-49fa-413f-b11b-6b4107f0d471
+  world-name: world
+  x: 235.5
+  y: 73.0
+  z: -43.5
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: 944dd853-49fa-413f-b11b-6b4107f0d471
+  world-name: world
+  x: 231.79346069211175
+  y: 68.0
+  z: -32.86250001192093
+  yaw: 0.0
+  pitch: 0.0

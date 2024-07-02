@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 0:0:0:0:0:0:0:1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1718719168260
+  login: 1718718577664
+money: '0'
+last-account-name: DONKEYPONG
+lastlocation:
+  world: 944dd853-49fa-413f-b11b-6b4107f0d471
+  world-name: world
+  x: 265.50077051129045
+  y: 92.59382948905966
+  z: -92.75125637143556
+  yaw: -357.9005432128906
+  pitch: 82.20001220703125
+logoutlocation:
+  world: 944dd853-49fa-413f-b11b-6b4107f0d471
+  world-name: world
+  x: 161.60816891271756
+  y: 64.257086501573
+  z: -5.617663988168861
+  yaw: -252.7506103515625
+  pitch: 41.399993896484375
